@@ -44,21 +44,27 @@ WOODS=(
 
 file=$1
 dest=${file/data/'build/data'}
+overlay_dest=${file/data/'build/overlay_61/data'}
+mkdir -p $(dirname $overlay_dest)
 
 if [[ $file == *"[color]"* ]]; then
 	mkdir -p $(dirname $dest)
 	for color in ${COLORS[@]}; do
 		local_dest=${dest/\[color\]/$color}
+		local_overlay_dest=${overlay_dest/\[color\]/$color}
 		sed "s/\[color\]/$color/g" $file >$local_dest
+		echo " -> $local_dest"
+		./override_v61/per_file.sh $local_dest >$local_overlay_dest
 	done
-	exit
 fi
 
 if [[ $file == *"[wood]"* ]]; then
 	mkdir -p $(dirname $dest)
 	for wood in ${WOODS[@]}; do
 		local_dest=${dest/\[wood\]/$wood}
+		local_overlay_dest=${overlay_dest/\[wood\]/$wood}
 		sed "s/\[wood\]/$wood/g" $file >$local_dest
+		echo " -> $local_dest"
+		./override_v61/per_file.sh $local_dest >$local_overlay_dest
 	done
-	exit
 fi
