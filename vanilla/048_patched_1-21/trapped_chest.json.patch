@@ -1,0 +1,17 @@
+--- ./000_base/trapped_chest.json	2025-12-03 19:08:31.063692245 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/trapped_chest.json	2025-12-03 19:10:03.517790576 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "redstone",
+ 	"ingredients": [
+-		"minecraft:chest",
+-		"minecraft:tripwire_hook"
++		{
++			"item": "minecraft:chest"
++		},
++		{
++			"item": "minecraft:tripwire_hook"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,9 @@
+--- ./000_base/spire_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:30.783698080 +0300
++++ /tmp/tmp.U370XMDO61/data/minecraft/recipe/spire_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:10:59.541660306 +0300
+@@ -2,5 +2,6 @@
+ 	"type": "minecraft:smithing_trim",
+ 	"addition": "#minecraft:trim_materials",
+ 	"base": "#minecraft:trimmable_armor",
++	"pattern": "minecraft:spire",
+ 	"template": "minecraft:spire_armor_trim_smithing_template"
+ }

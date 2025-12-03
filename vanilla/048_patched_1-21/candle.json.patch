@@ -1,0 +1,17 @@
+--- ./000_base/candle.json	2025-12-03 19:08:27.621764008 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/candle.json	2025-12-03 19:09:57.685909137 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"H": "minecraft:honeycomb",
+-		"S": "minecraft:string"
++		"H": {
++			"item": "minecraft:honeycomb"
++		},
++		"S": {
++			"item": "minecraft:string"
++		}
+ 	},
+ 	"pattern": [
+ 		"S",

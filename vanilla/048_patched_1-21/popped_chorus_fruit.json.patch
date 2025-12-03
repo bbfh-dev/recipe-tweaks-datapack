@@ -1,0 +1,13 @@
+--- ./000_base/popped_chorus_fruit.json	2025-12-03 19:08:30.238709439 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/popped_chorus_fruit.json	2025-12-03 19:10:02.202817294 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:chorus_fruit",
++	"ingredient": {
++		"item": "minecraft:chorus_fruit"
++	},
+ 	"result": {
+ 		"id": "minecraft:popped_chorus_fruit"
+ 	}

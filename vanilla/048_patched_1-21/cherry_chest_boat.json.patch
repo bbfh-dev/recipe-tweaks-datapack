@@ -1,0 +1,17 @@
+--- ./000_base/cherry_chest_boat.json	2025-12-03 19:08:27.670762986 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cherry_chest_boat.json	2025-12-03 19:09:57.734908140 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "chest_boat",
+ 	"ingredients": [
+-		"minecraft:chest",
+-		"minecraft:cherry_boat"
++		{
++			"item": "minecraft:chest"
++		},
++		{
++			"item": "minecraft:cherry_boat"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

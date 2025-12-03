@@ -1,0 +1,21 @@
+--- ./000_base/flow_armor_trim_smithing_template.json	2025-12-03 19:08:28.788739668 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/flow_armor_trim_smithing_template.json	2025-12-03 19:09:59.731867523 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:diamond",
+-		"C": "minecraft:breeze_rod",
+-		"S": "minecraft:flow_armor_trim_smithing_template"
++		"#": {
++			"item": "minecraft:diamond"
++		},
++		"C": {
++			"item": "minecraft:breeze_rod"
++		},
++		"S": {
++			"item": "minecraft:flow_armor_trim_smithing_template"
++		}
+ 	},
+ 	"pattern": [
+ 		"#S#",

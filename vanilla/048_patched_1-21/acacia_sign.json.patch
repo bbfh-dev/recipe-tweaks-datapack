@@ -1,0 +1,17 @@
+--- ./000_base/acacia_sign.json	2025-12-03 19:08:27.157773687 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/acacia_sign.json	2025-12-03 19:09:56.876925597 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_sign",
+ 	"key": {
+-		"#": "minecraft:acacia_planks",
+-		"X": "minecraft:stick"
++		"#": {
++			"item": "minecraft:acacia_planks"
++		},
++		"X": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

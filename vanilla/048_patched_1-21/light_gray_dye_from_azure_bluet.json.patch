@@ -1,0 +1,13 @@
+--- ./000_base/light_gray_dye_from_azure_bluet.json	2025-12-03 19:08:29.287729264 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/light_gray_dye_from_azure_bluet.json	2025-12-03 19:10:00.643848981 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "light_gray_dye",
+ 	"ingredients": [
+-		"minecraft:azure_bluet"
++		{
++			"item": "minecraft:azure_bluet"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,12 @@
+--- ./000_base/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting.json	2025-12-03 19:08:31.240688557 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting.json	2025-12-03 19:10:03.845783913 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:waxed_copper_block",
++	"ingredient": {
++		"item": "minecraft:waxed_copper_block"
++	},
+ 	"result": {
+ 		"count": 8,
+ 		"id": "minecraft:waxed_cut_copper_slab"

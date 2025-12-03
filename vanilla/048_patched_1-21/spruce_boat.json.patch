@@ -1,0 +1,13 @@
+--- ./000_base/spruce_boat.json	2025-12-03 19:08:30.789697955 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_boat.json	2025-12-03 19:10:03.132798397 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "boat",
+ 	"key": {
+-		"#": "minecraft:spruce_planks"
++		"#": {
++			"item": "minecraft:spruce_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"# #",

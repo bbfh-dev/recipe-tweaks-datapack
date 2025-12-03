@@ -1,0 +1,11 @@
+--- ./000_base/light_gray_shulker_box.json	2025-12-03 19:08:29.306728868 +0300
++++ /tmp/tmp.NG75q41QuP/data/minecraft/recipe/light_gray_shulker_box.json	2025-12-03 19:13:03.125216399 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "shulker_box_dye",
+ 	"input": "#minecraft:shulker_boxes",
+ 	"material": "minecraft:light_gray_dye",
+-	"result": "minecraft:light_gray_shulker_box"
++	"result": {
++		"id": "minecraft:light_gray_shulker_box"
++	}
+ }

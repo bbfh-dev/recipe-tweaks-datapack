@@ -1,0 +1,26 @@
+--- ./000_base/soul_torch.json	2025-12-03 19:08:30.773698288 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/soul_torch.json	2025-12-03 19:10:03.102799007 +0300
+@@ -2,11 +2,19 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"S": "#minecraft:soul_fire_base_blocks",
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"S": {
++			"tag": "minecraft:soul_fire_base_blocks"
++		},
+ 		"X": [
+-			"minecraft:coal",
+-			"minecraft:charcoal"
++			{
++				"item": "minecraft:coal"
++			},
++			{
++				"item": "minecraft:charcoal"
++			}
+ 		]
+ 	},
+ 	"pattern": [

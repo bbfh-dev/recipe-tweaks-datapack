@@ -1,0 +1,17 @@
+--- ./000_base/lectern.json	2025-12-03 19:08:29.220730661 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lectern.json	2025-12-03 19:10:00.527851339 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"B": "minecraft:bookshelf",
+-		"S": "#minecraft:wooden_slabs"
++		"B": {
++			"item": "minecraft:bookshelf"
++		},
++		"S": {
++			"tag": "minecraft:wooden_slabs"
++		}
+ 	},
+ 	"pattern": [
+ 		"SSS",

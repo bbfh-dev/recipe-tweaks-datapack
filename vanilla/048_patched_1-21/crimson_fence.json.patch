@@ -1,0 +1,17 @@
+--- ./000_base/crimson_fence.json	2025-12-03 19:08:28.072754600 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crimson_fence.json	2025-12-03 19:09:58.404894511 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_fence",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"W": "minecraft:crimson_planks"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"W": {
++			"item": "minecraft:crimson_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"W#W",

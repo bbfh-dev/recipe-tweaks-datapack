@@ -1,0 +1,21 @@
+--- ./000_base/sandstone_stairs.json	2025-12-03 19:08:30.623701415 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/sandstone_stairs.json	2025-12-03 19:10:02.818804777 +0300
+@@ -3,9 +3,15 @@
+ 	"category": "building",
+ 	"key": {
+ 		"#": [
+-			"minecraft:sandstone",
+-			"minecraft:chiseled_sandstone",
+-			"minecraft:cut_sandstone"
++			{
++				"item": "minecraft:sandstone"
++			},
++			{
++				"item": "minecraft:chiseled_sandstone"
++			},
++			{
++				"item": "minecraft:cut_sandstone"
++			}
+ 		]
+ 	},
+ 	"pattern": [

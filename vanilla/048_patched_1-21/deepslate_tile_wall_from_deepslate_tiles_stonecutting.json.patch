@@ -1,0 +1,12 @@
+--- ./000_base/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json	2025-12-03 19:08:28.368748427 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json	2025-12-03 19:09:58.937883669 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:deepslate_tiles",
++	"ingredient": {
++		"item": "minecraft:deepslate_tiles"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:deepslate_tile_wall"

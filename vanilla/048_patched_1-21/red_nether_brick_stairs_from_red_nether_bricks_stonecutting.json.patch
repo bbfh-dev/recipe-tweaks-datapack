@@ -1,0 +1,12 @@
+--- ./000_base/red_nether_brick_stairs_from_red_nether_bricks_stonecutting.json	2025-12-03 19:08:30.482704353 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_nether_brick_stairs_from_red_nether_bricks_stonecutting.json	2025-12-03 19:10:02.622808760 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:red_nether_bricks",
++	"ingredient": {
++		"item": "minecraft:red_nether_bricks"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:red_nether_brick_stairs"

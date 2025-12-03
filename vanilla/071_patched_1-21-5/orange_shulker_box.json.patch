@@ -1,0 +1,11 @@
+--- ./000_base/orange_shulker_box.json	2025-12-03 19:08:29.787718840 +0300
++++ /tmp/tmp.U370XMDO61/data/minecraft/recipe/orange_shulker_box.json	2025-12-03 19:10:57.666697888 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "shulker_box_dye",
+ 	"input": "#minecraft:shulker_boxes",
+ 	"material": "minecraft:orange_dye",
+-	"result": "minecraft:orange_shulker_box"
++	"result": {
++		"id": "minecraft:orange_shulker_box"
++	}
+ }

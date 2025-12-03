@@ -1,0 +1,13 @@
+--- ./000_base/jungle_slab.json	2025-12-03 19:08:29.161731891 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jungle_slab.json	2025-12-03 19:10:00.417853575 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:jungle_planks"
++		"#": {
++			"item": "minecraft:jungle_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

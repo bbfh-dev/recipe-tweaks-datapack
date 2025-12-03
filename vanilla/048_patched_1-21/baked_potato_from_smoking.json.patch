@@ -1,0 +1,13 @@
+--- ./000_base/baked_potato_from_smoking.json	2025-12-03 19:08:27.225772269 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/baked_potato_from_smoking.json	2025-12-03 19:09:56.989923297 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "food",
+ 	"cookingtime": 100,
+ 	"experience": 0.35,
+-	"ingredient": "minecraft:potato",
++	"ingredient": {
++		"item": "minecraft:potato"
++	},
+ 	"result": {
+ 		"id": "minecraft:baked_potato"
+ 	}

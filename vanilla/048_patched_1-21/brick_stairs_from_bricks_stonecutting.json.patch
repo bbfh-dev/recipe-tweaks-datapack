@@ -1,0 +1,12 @@
+--- ./000_base/brick_stairs_from_bricks_stonecutting.json	2025-12-03 19:08:27.548765531 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/brick_stairs_from_bricks_stonecutting.json	2025-12-03 19:09:57.559911700 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:bricks",
++	"ingredient": {
++		"item": "minecraft:bricks"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:brick_stairs"

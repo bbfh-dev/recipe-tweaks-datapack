@@ -1,0 +1,13 @@
+--- ./000_base/diorite_wall.json	2025-12-03 19:08:28.447746780 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/diorite_wall.json	2025-12-03 19:09:59.078880802 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:diorite"
++		"#": {
++			"item": "minecraft:diorite"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

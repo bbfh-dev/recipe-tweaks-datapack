@@ -1,0 +1,13 @@
+--- ./000_base/polished_blackstone.json	2025-12-03 19:08:30.067713003 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_blackstone.json	2025-12-03 19:10:01.904823349 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"S": "minecraft:blackstone"
++		"S": {
++			"item": "minecraft:blackstone"
++		}
+ 	},
+ 	"pattern": [
+ 		"SS",

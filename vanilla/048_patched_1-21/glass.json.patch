@@ -1,0 +1,13 @@
+--- ./000_base/glass.json	2025-12-03 19:08:28.810739210 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/glass.json	2025-12-03 19:09:59.772866689 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "#minecraft:smelts_to_glass",
++	"ingredient": {
++		"tag": "minecraft:smelts_to_glass"
++	},
+ 	"result": {
+ 		"id": "minecraft:glass"
+ 	}

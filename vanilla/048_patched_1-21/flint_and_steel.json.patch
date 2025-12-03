@@ -1,0 +1,17 @@
+--- ./000_base/flint_and_steel.json	2025-12-03 19:08:28.786739710 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/flint_and_steel.json	2025-12-03 19:09:59.725867645 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "equipment",
+ 	"ingredients": [
+-		"minecraft:iron_ingot",
+-		"minecraft:flint"
++		{
++			"item": "minecraft:iron_ingot"
++		},
++		{
++			"item": "minecraft:flint"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

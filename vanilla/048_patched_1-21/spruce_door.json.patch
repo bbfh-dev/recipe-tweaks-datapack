@@ -1,0 +1,13 @@
+--- ./000_base/spruce_door.json	2025-12-03 19:08:30.801697705 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_door.json	2025-12-03 19:10:03.150798032 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_door",
+ 	"key": {
+-		"#": "minecraft:spruce_planks"
++		"#": {
++			"item": "minecraft:spruce_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

@@ -1,0 +1,12 @@
+--- ./000_base/nether_brick_slab_from_nether_bricks_stonecutting.json	2025-12-03 19:08:29.619722342 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/nether_brick_slab_from_nether_bricks_stonecutting.json	2025-12-03 19:10:01.220837251 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:nether_bricks",
++	"ingredient": {
++		"item": "minecraft:nether_bricks"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:nether_brick_slab"

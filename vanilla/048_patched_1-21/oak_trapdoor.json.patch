@@ -1,0 +1,13 @@
+--- ./000_base/oak_trapdoor.json	2025-12-03 19:08:29.739719841 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oak_trapdoor.json	2025-12-03 19:10:01.421833166 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_trapdoor",
+ 	"key": {
+-		"#": "minecraft:oak_planks"
++		"#": {
++			"item": "minecraft:oak_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

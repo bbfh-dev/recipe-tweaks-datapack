@@ -1,0 +1,45 @@
+--- ./000_base/brown_concrete_powder.json	2025-12-03 19:08:27.577764926 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/brown_concrete_powder.json	2025-12-03 19:09:57.608910703 +0300
+@@ -3,15 +3,33 @@
+ 	"category": "building",
+ 	"group": "concrete_powder",
+ 	"ingredients": [
+-		"minecraft:brown_dye",
+-		"minecraft:sand",
+-		"minecraft:sand",
+-		"minecraft:sand",
+-		"minecraft:sand",
+-		"minecraft:gravel",
+-		"minecraft:gravel",
+-		"minecraft:gravel",
+-		"minecraft:gravel"
++		{
++			"item": "minecraft:brown_dye"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:gravel"
++		},
++		{
++			"item": "minecraft:gravel"
++		},
++		{
++			"item": "minecraft:gravel"
++		},
++		{
++			"item": "minecraft:gravel"
++		}
+ 	],
+ 	"result": {
+ 		"count": 8,

@@ -1,0 +1,13 @@
+--- ./000_base/shears.json	2025-12-03 19:08:30.654700769 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/shears.json	2025-12-03 19:10:02.878803558 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		" #",

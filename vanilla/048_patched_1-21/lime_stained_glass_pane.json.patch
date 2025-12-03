@@ -1,0 +1,13 @@
+--- ./000_base/lime_stained_glass_pane.json	2025-12-03 19:08:29.362727700 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lime_stained_glass_pane.json	2025-12-03 19:10:00.776846277 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "stained_glass_pane",
+ 	"key": {
+-		"#": "minecraft:lime_stained_glass"
++		"#": {
++			"item": "minecraft:lime_stained_glass"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

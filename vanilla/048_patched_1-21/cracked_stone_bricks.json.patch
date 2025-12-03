@@ -1,0 +1,13 @@
+--- ./000_base/cracked_stone_bricks.json	2025-12-03 19:08:28.043755205 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cracked_stone_bricks.json	2025-12-03 19:09:58.362895365 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:stone_bricks",
++	"ingredient": {
++		"item": "minecraft:stone_bricks"
++	},
+ 	"result": {
+ 		"id": "minecraft:cracked_stone_bricks"
+ 	}

@@ -1,0 +1,10 @@
+--- ./000_base/netherite_helmet_smithing.json	2025-12-03 19:08:29.650721696 +0300
++++ /tmp/tmp.U370XMDO61/data/minecraft/recipe/netherite_helmet_smithing.json	2025-12-03 19:10:57.428702660 +0300
+@@ -3,7 +3,6 @@
+ 	"addition": "#minecraft:netherite_tool_materials",
+ 	"base": "minecraft:diamond_helmet",
+ 	"result": {
+-		"count": 1,
+ 		"id": "minecraft:netherite_helmet"
+ 	},
+ 	"template": "minecraft:netherite_upgrade_smithing_template"

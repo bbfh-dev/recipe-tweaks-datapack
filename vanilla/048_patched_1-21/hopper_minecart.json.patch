@@ -1,0 +1,17 @@
+--- ./000_base/hopper_minecart.json	2025-12-03 19:08:29.037734476 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/hopper_minecart.json	2025-12-03 19:10:00.172858556 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:hopper",
+-		"minecraft:minecart"
++		{
++			"item": "minecraft:hopper"
++		},
++		{
++			"item": "minecraft:minecart"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

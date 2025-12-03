@@ -1,0 +1,17 @@
+--- ./000_base/red_stained_glass.json	2025-12-03 19:08:30.523703499 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_stained_glass.json	2025-12-03 19:10:02.685807479 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "stained_glass",
+ 	"key": {
+-		"#": "minecraft:glass",
+-		"X": "minecraft:red_dye"
++		"#": {
++			"item": "minecraft:glass"
++		},
++		"X": {
++			"item": "minecraft:red_dye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

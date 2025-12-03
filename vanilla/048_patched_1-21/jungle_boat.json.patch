@@ -1,0 +1,13 @@
+--- ./000_base/jungle_boat.json	2025-12-03 19:08:29.130732537 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jungle_boat.json	2025-12-03 19:10:00.357854795 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "boat",
+ 	"key": {
+-		"#": "minecraft:jungle_planks"
++		"#": {
++			"item": "minecraft:jungle_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"# #",

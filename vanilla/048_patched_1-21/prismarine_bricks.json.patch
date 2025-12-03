@@ -1,0 +1,45 @@
+--- ./000_base/prismarine_bricks.json	2025-12-03 19:08:30.244709314 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/prismarine_bricks.json	2025-12-03 19:10:02.214817050 +0300
+@@ -2,15 +2,33 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard",
+-		"minecraft:prismarine_shard"
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		},
++		{
++			"item": "minecraft:prismarine_shard"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

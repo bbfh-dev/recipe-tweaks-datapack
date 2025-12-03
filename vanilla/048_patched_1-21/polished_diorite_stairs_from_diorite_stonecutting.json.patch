@@ -1,0 +1,12 @@
+--- ./000_base/polished_diorite_stairs_from_diorite_stonecutting.json	2025-12-03 19:08:30.155711169 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_diorite_stairs_from_diorite_stonecutting.json	2025-12-03 19:10:02.067820037 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:diorite",
++	"ingredient": {
++		"item": "minecraft:diorite"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:polished_diorite_stairs"

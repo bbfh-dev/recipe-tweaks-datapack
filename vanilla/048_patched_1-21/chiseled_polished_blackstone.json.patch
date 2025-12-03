@@ -1,0 +1,13 @@
+--- ./000_base/chiseled_polished_blackstone.json	2025-12-03 19:08:27.753761254 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/chiseled_polished_blackstone.json	2025-12-03 19:09:57.871905353 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"#": "minecraft:polished_blackstone_slab"
++		"#": {
++			"item": "minecraft:polished_blackstone_slab"
++		}
+ 	},
+ 	"pattern": [
+ 		"#",

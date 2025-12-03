@@ -1,0 +1,45 @@
+--- ./000_base/packed_ice.json	2025-12-03 19:08:29.853717464 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/packed_ice.json	2025-12-03 19:10:01.603829467 +0300
+@@ -2,15 +2,33 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:ice",
+-		"minecraft:ice",
+-		"minecraft:ice",
+-		"minecraft:ice",
+-		"minecraft:ice",
+-		"minecraft:ice",
+-		"minecraft:ice",
+-		"minecraft:ice",
+-		"minecraft:ice"
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		},
++		{
++			"item": "minecraft:ice"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

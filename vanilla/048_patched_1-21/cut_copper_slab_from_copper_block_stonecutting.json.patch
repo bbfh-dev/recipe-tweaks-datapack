@@ -1,0 +1,12 @@
+--- ./000_base/cut_copper_slab_from_copper_block_stonecutting.json	2025-12-03 19:08:28.112753766 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cut_copper_slab_from_copper_block_stonecutting.json	2025-12-03 19:09:58.473893107 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:copper_block",
++	"ingredient": {
++		"item": "minecraft:copper_block"
++	},
+ 	"result": {
+ 		"count": 8,
+ 		"id": "minecraft:cut_copper_slab"

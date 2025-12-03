@@ -1,0 +1,17 @@
+--- ./000_base/spruce_fence.json	2025-12-03 19:08:30.806697601 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_fence.json	2025-12-03 19:10:03.163797767 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_fence",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"W": "minecraft:spruce_planks"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"W": {
++			"item": "minecraft:spruce_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"W#W",

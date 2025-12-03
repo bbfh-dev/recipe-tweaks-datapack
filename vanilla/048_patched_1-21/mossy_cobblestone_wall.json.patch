@@ -1,0 +1,13 @@
+--- ./000_base/mossy_cobblestone_wall.json	2025-12-03 19:08:29.547723843 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mossy_cobblestone_wall.json	2025-12-03 19:10:01.084840016 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:mossy_cobblestone"
++		"#": {
++			"item": "minecraft:mossy_cobblestone"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

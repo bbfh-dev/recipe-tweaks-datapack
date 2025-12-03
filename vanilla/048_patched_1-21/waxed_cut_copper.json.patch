@@ -1,0 +1,13 @@
+--- ./000_base/waxed_cut_copper.json	2025-12-03 19:08:31.234688682 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_cut_copper.json	2025-12-03 19:10:03.834784137 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "waxed_cut_copper",
+ 	"key": {
+-		"#": "minecraft:waxed_copper_block"
++		"#": {
++			"item": "minecraft:waxed_copper_block"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

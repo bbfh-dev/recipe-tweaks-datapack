@@ -1,0 +1,13 @@
+--- ./000_base/copper_ingot_from_waxed_copper_block.json	2025-12-03 19:08:28.022755643 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/copper_ingot_from_waxed_copper_block.json	2025-12-03 19:09:58.323896158 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "copper_ingot",
+ 	"ingredients": [
+-		"minecraft:waxed_copper_block"
++		{
++			"item": "minecraft:waxed_copper_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

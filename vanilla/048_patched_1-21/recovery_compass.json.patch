@@ -1,0 +1,17 @@
+--- ./000_base/recovery_compass.json	2025-12-03 19:08:30.432705395 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/recovery_compass.json	2025-12-03 19:10:02.546810304 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"C": "minecraft:compass",
+-		"S": "minecraft:echo_shard"
++		"C": {
++			"item": "minecraft:compass"
++		},
++		"S": {
++			"item": "minecraft:echo_shard"
++		}
+ 	},
+ 	"pattern": [
+ 		"SSS",

@@ -1,0 +1,11 @@
+--- ./000_base/blue_bundle.json	2025-12-03 19:08:27.452767533 +0300
++++ /tmp/tmp.NG75q41QuP/data/minecraft/recipe/blue_bundle.json	2025-12-03 19:12:59.550286245 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "bundle_dye",
+ 	"input": "#minecraft:bundles",
+ 	"material": "minecraft:blue_dye",
+-	"result": "minecraft:blue_bundle"
++	"result": {
++		"id": "minecraft:blue_bundle"
++	}
+ }

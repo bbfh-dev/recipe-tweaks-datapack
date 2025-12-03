@@ -1,0 +1,13 @@
+--- ./000_base/mangrove_boat.json	2025-12-03 19:08:29.446725949 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mangrove_boat.json	2025-12-03 19:10:00.910843552 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "boat",
+ 	"key": {
+-		"#": "minecraft:mangrove_planks"
++		"#": {
++			"item": "minecraft:mangrove_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"# #",

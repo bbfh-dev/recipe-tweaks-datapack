@@ -1,0 +1,17 @@
+--- ./000_base/stonecutter.json	2025-12-03 19:08:30.896695725 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stonecutter.json	2025-12-03 19:10:03.316794660 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:stone",
+-		"I": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:stone"
++		},
++		"I": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		" I ",

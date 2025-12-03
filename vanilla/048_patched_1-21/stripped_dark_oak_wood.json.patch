@@ -1,0 +1,13 @@
+--- ./000_base/stripped_dark_oak_wood.json	2025-12-03 19:08:30.949694620 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stripped_dark_oak_wood.json	2025-12-03 19:10:03.399792973 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:stripped_dark_oak_log"
++		"#": {
++			"item": "minecraft:stripped_dark_oak_log"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

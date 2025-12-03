@@ -1,0 +1,13 @@
+--- ./000_base/cracked_deepslate_tiles.json	2025-12-03 19:08:28.033755413 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cracked_deepslate_tiles.json	2025-12-03 19:09:58.345895711 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:deepslate_tiles",
++	"ingredient": {
++		"item": "minecraft:deepslate_tiles"
++	},
+ 	"result": {
+ 		"id": "minecraft:cracked_deepslate_tiles"
+ 	}

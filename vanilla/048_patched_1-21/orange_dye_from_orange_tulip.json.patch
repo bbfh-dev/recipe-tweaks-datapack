@@ -1,0 +1,13 @@
+--- ./000_base/orange_dye_from_orange_tulip.json	2025-12-03 19:08:29.774719111 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_dye_from_orange_tulip.json	2025-12-03 19:10:01.471832150 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "orange_dye",
+ 	"ingredients": [
+-		"minecraft:orange_tulip"
++		{
++			"item": "minecraft:orange_tulip"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

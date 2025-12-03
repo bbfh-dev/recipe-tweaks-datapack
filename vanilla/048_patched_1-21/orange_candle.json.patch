@@ -1,0 +1,17 @@
+--- ./000_base/orange_candle.json	2025-12-03 19:08:29.759719424 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_candle.json	2025-12-03 19:10:01.453832516 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "dyed_candle",
+ 	"ingredients": [
+-		"minecraft:candle",
+-		"minecraft:orange_dye"
++		{
++			"item": "minecraft:candle"
++		},
++		{
++			"item": "minecraft:orange_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

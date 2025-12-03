@@ -1,0 +1,17 @@
+--- ./000_base/orange_dye_from_red_yellow.json	2025-12-03 19:08:29.777719048 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_dye_from_red_yellow.json	2025-12-03 19:10:01.478832008 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "orange_dye",
+ 	"ingredients": [
+-		"minecraft:red_dye",
+-		"minecraft:yellow_dye"
++		{
++			"item": "minecraft:red_dye"
++		},
++		{
++			"item": "minecraft:yellow_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

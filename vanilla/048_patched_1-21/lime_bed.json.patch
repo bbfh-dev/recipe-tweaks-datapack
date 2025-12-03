@@ -1,0 +1,17 @@
+--- ./000_base/lime_bed.json	2025-12-03 19:08:29.330728367 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lime_bed.json	2025-12-03 19:10:00.721847395 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "bed",
+ 	"key": {
+-		"#": "minecraft:lime_wool",
+-		"X": "#minecraft:planks"
++		"#": {
++			"item": "minecraft:lime_wool"
++		},
++		"X": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

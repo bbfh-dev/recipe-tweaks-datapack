@@ -1,0 +1,12 @@
+--- ./000_base/polished_granite_from_granite_stonecutting.json	2025-12-03 19:08:30.166710939 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_granite_from_granite_stonecutting.json	2025-12-03 19:10:02.088819610 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:granite",
++	"ingredient": {
++		"item": "minecraft:granite"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:polished_granite"

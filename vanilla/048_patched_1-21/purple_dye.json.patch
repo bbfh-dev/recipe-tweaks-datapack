@@ -1,0 +1,17 @@
+--- ./000_base/purple_dye.json	2025-12-03 19:08:30.311707917 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/purple_dye.json	2025-12-03 19:10:02.328814733 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:blue_dye",
+-		"minecraft:red_dye"
++		{
++			"item": "minecraft:blue_dye"
++		},
++		{
++			"item": "minecraft:red_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

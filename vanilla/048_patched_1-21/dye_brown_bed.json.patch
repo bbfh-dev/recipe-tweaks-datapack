@@ -1,0 +1,74 @@
+--- ./000_base/dye_brown_bed.json	2025-12-03 19:08:28.501745654 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dye_brown_bed.json	2025-12-03 19:09:59.188878565 +0300
+@@ -3,23 +3,55 @@
+ 	"category": "building",
+ 	"group": "bed",
+ 	"ingredients": [
+-		"minecraft:brown_dye",
++		{
++			"item": "minecraft:brown_dye"
++		},
+ 		[
+-			"minecraft:black_bed",
+-			"minecraft:blue_bed",
+-			"minecraft:cyan_bed",
+-			"minecraft:gray_bed",
+-			"minecraft:green_bed",
+-			"minecraft:light_blue_bed",
+-			"minecraft:light_gray_bed",
+-			"minecraft:lime_bed",
+-			"minecraft:magenta_bed",
+-			"minecraft:orange_bed",
+-			"minecraft:pink_bed",
+-			"minecraft:purple_bed",
+-			"minecraft:red_bed",
+-			"minecraft:yellow_bed",
+-			"minecraft:white_bed"
++			{
++				"item": "minecraft:black_bed"
++			},
++			{
++				"item": "minecraft:blue_bed"
++			},
++			{
++				"item": "minecraft:cyan_bed"
++			},
++			{
++				"item": "minecraft:gray_bed"
++			},
++			{
++				"item": "minecraft:green_bed"
++			},
++			{
++				"item": "minecraft:light_blue_bed"
++			},
++			{
++				"item": "minecraft:light_gray_bed"
++			},
++			{
++				"item": "minecraft:lime_bed"
++			},
++			{
++				"item": "minecraft:magenta_bed"
++			},
++			{
++				"item": "minecraft:orange_bed"
++			},
++			{
++				"item": "minecraft:pink_bed"
++			},
++			{
++				"item": "minecraft:purple_bed"
++			},
++			{
++				"item": "minecraft:red_bed"
++			},
++			{
++				"item": "minecraft:yellow_bed"
++			},
++			{
++				"item": "minecraft:white_bed"
++			}
+ 		]
+ 	],
+ 	"result": {

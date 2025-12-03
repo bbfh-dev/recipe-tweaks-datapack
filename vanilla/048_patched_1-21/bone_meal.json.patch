@@ -1,0 +1,13 @@
+--- ./000_base/bone_meal.json	2025-12-03 19:08:27.504766448 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/bone_meal.json	2025-12-03 19:09:57.473913450 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "bonemeal",
+ 	"ingredients": [
+-		"minecraft:bone"
++		{
++			"item": "minecraft:bone"
++		}
+ 	],
+ 	"result": {
+ 		"count": 3,

@@ -1,0 +1,13 @@
+--- ./000_base/crimson_slab.json	2025-12-03 19:08:28.092754183 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crimson_slab.json	2025-12-03 19:09:58.440893778 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:crimson_planks"
++		"#": {
++			"item": "minecraft:crimson_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

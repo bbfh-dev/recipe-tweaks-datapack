@@ -1,0 +1,13 @@
+--- ./000_base/lime_glazed_terracotta.json	2025-12-03 19:08:29.351727930 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lime_glazed_terracotta.json	2025-12-03 19:10:00.757846663 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:lime_terracotta",
++	"ingredient": {
++		"item": "minecraft:lime_terracotta"
++	},
+ 	"result": {
+ 		"id": "minecraft:lime_glazed_terracotta"
+ 	}

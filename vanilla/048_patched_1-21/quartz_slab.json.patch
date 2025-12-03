@@ -1,0 +1,21 @@
+--- ./000_base/quartz_slab.json	2025-12-03 19:08:30.385706375 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/quartz_slab.json	2025-12-03 19:10:02.463811990 +0300
+@@ -3,9 +3,15 @@
+ 	"category": "building",
+ 	"key": {
+ 		"#": [
+-			"minecraft:chiseled_quartz_block",
+-			"minecraft:quartz_block",
+-			"minecraft:quartz_pillar"
++			{
++				"item": "minecraft:chiseled_quartz_block"
++			},
++			{
++				"item": "minecraft:quartz_block"
++			},
++			{
++				"item": "minecraft:quartz_pillar"
++			}
+ 		]
+ 	},
+ 	"pattern": [

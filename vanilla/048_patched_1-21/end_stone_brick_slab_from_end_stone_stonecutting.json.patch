@@ -1,0 +1,12 @@
+--- ./000_base/end_stone_brick_slab_from_end_stone_stonecutting.json	2025-12-03 19:08:28.681741900 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/end_stone_brick_slab_from_end_stone_stonecutting.json	2025-12-03 19:09:59.526871691 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:end_stone",
++	"ingredient": {
++		"item": "minecraft:end_stone"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:end_stone_brick_slab"

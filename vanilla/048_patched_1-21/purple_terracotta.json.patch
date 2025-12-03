@@ -1,0 +1,17 @@
+--- ./000_base/purple_terracotta.json	2025-12-03 19:08:30.331707500 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/purple_terracotta.json	2025-12-03 19:10:02.361814063 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "stained_terracotta",
+ 	"key": {
+-		"#": "minecraft:terracotta",
+-		"X": "minecraft:purple_dye"
++		"#": {
++			"item": "minecraft:terracotta"
++		},
++		"X": {
++			"item": "minecraft:purple_dye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

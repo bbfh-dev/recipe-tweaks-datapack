@@ -1,0 +1,17 @@
+--- ./000_base/magma_cream.json	2025-12-03 19:08:29.442726032 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/magma_cream.json	2025-12-03 19:10:00.903843695 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:blaze_powder",
+-		"minecraft:slime_ball"
++		{
++			"item": "minecraft:blaze_powder"
++		},
++		{
++			"item": "minecraft:slime_ball"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,13 @@
+--- ./000_base/red_glazed_terracotta.json	2025-12-03 19:08:30.467704666 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_glazed_terracotta.json	2025-12-03 19:10:02.601809186 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:red_terracotta",
++	"ingredient": {
++		"item": "minecraft:red_terracotta"
++	},
+ 	"result": {
+ 		"id": "minecraft:red_glazed_terracotta"
+ 	}

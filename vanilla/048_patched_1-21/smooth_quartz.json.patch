@@ -1,0 +1,13 @@
+--- ./000_base/smooth_quartz.json	2025-12-03 19:08:30.695699914 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/smooth_quartz.json	2025-12-03 19:10:02.952802054 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:quartz_block",
++	"ingredient": {
++		"item": "minecraft:quartz_block"
++	},
+ 	"result": {
+ 		"id": "minecraft:smooth_quartz"
+ 	}

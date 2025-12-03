@@ -1,0 +1,17 @@
+--- ./000_base/spyglass.json	2025-12-03 19:08:30.839696913 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spyglass.json	2025-12-03 19:10:03.214796731 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:amethyst_shard",
+-		"X": "minecraft:copper_ingot"
++		"#": {
++			"item": "minecraft:amethyst_shard"
++		},
++		"X": {
++			"item": "minecraft:copper_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		" # ",

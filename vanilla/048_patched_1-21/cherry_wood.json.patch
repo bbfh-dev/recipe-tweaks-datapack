@@ -1,0 +1,13 @@
+--- ./000_base/cherry_wood.json	2025-12-03 19:08:27.707762214 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cherry_wood.json	2025-12-03 19:09:57.796906879 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:cherry_log"
++		"#": {
++			"item": "minecraft:cherry_log"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

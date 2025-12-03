@@ -1,0 +1,17 @@
+--- ./000_base/golden_carrot.json	2025-12-03 19:08:28.843738521 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/golden_carrot.json	2025-12-03 19:09:59.825865611 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:gold_nugget",
+-		"X": "minecraft:carrot"
++		"#": {
++			"item": "minecraft:gold_nugget"
++		},
++		"X": {
++			"item": "minecraft:carrot"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

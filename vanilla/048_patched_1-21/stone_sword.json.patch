@@ -1,0 +1,17 @@
+--- ./000_base/stone_sword.json	2025-12-03 19:08:30.931694995 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stone_sword.json	2025-12-03 19:10:03.370793562 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:stone_tool_materials"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"tag": "minecraft:stone_tool_materials"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

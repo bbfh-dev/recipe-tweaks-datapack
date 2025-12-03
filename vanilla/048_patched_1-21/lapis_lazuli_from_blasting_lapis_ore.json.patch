@@ -1,0 +1,13 @@
+--- ./000_base/lapis_lazuli_from_blasting_lapis_ore.json	2025-12-03 19:08:29.185731390 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lapis_lazuli_from_blasting_lapis_ore.json	2025-12-03 19:10:00.464852620 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 100,
+ 	"experience": 0.2,
+ 	"group": "lapis_lazuli",
+-	"ingredient": "minecraft:lapis_ore",
++	"ingredient": {
++		"item": "minecraft:lapis_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:lapis_lazuli"
+ 	}

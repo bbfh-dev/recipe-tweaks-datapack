@@ -1,0 +1,17 @@
+--- ./000_base/red_nether_bricks.json	2025-12-03 19:08:30.471704582 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_nether_bricks.json	2025-12-03 19:10:02.607809064 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"N": "minecraft:nether_brick",
+-		"W": "minecraft:nether_wart"
++		"N": {
++			"item": "minecraft:nether_brick"
++		},
++		"W": {
++			"item": "minecraft:nether_wart"
++		}
+ 	},
+ 	"pattern": [
+ 		"NW",

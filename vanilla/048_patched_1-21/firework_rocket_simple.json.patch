@@ -1,0 +1,17 @@
+--- ./000_base/firework_rocket_simple.json	2025-12-03 19:08:28.770740044 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/firework_rocket_simple.json	2025-12-03 19:09:59.694868275 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:gunpowder",
+-		"minecraft:paper"
++		{
++			"item": "minecraft:gunpowder"
++		},
++		{
++			"item": "minecraft:paper"
++		}
+ 	],
+ 	"result": {
+ 		"count": 3,

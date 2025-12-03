@@ -1,0 +1,12 @@
+--- ./000_base/dye_pink_bed.json	2025-12-03 19:08:28.588743839 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/dye_pink_bed.json	2025-12-03 19:12:22.382015263 +0300
+@@ -1,7 +1,7 @@
+ {
+ 	"type": "minecraft:crafting_shapeless",
+-	"category": "building",
+-	"group": "bed",
++	"category": "misc",
++	"group": "bed_dye",
+ 	"ingredients": [
+ 		"minecraft:pink_dye",
+ 		[

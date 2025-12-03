@@ -1,0 +1,13 @@
+--- ./000_base/leather_leggings.json	2025-12-03 19:08:29.217730723 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/leather_leggings.json	2025-12-03 19:10:00.522851440 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"X": "minecraft:leather"
++		"X": {
++			"item": "minecraft:leather"
++		}
+ 	},
+ 	"pattern": [
+ 		"XXX",

@@ -1,0 +1,21 @@
+--- ./000_base/oxidized_copper_bulb.json	2025-12-03 19:08:29.813718298 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oxidized_copper_bulb.json	2025-12-03 19:10:01.539830768 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"B": "minecraft:blaze_rod",
+-		"C": "minecraft:oxidized_copper",
+-		"R": "minecraft:redstone"
++		"B": {
++			"item": "minecraft:blaze_rod"
++		},
++		"C": {
++			"item": "minecraft:oxidized_copper"
++		},
++		"R": {
++			"item": "minecraft:redstone"
++		}
+ 	},
+ 	"pattern": [
+ 		" C ",

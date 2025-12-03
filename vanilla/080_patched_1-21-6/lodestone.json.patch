@@ -1,0 +1,11 @@
+--- ./000_base/lodestone.json	2025-12-03 19:08:29.370727533 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/lodestone.json	2025-12-03 19:12:23.879985779 +0300
+@@ -2,7 +2,7 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:netherite_ingot",
++		"#": "minecraft:iron_ingot",
+ 		"S": "minecraft:chiseled_stone_bricks"
+ 	},
+ 	"pattern": [

@@ -1,0 +1,13 @@
+--- ./000_base/cyan_stained_glass_pane.json	2025-12-03 19:08:28.198751972 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_stained_glass_pane.json	2025-12-03 19:09:58.620890117 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "stained_glass_pane",
+ 	"key": {
+-		"#": "minecraft:cyan_stained_glass"
++		"#": {
++			"item": "minecraft:cyan_stained_glass"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

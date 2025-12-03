@@ -1,0 +1,29 @@
+--- ./000_base/rabbit_stew_from_red_mushroom.json	2025-12-03 19:08:30.398706104 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/rabbit_stew_from_red_mushroom.json	2025-12-03 19:10:02.487811503 +0300
+@@ -3,11 +3,21 @@
+ 	"category": "misc",
+ 	"group": "rabbit_stew",
+ 	"ingredients": [
+-		"minecraft:baked_potato",
+-		"minecraft:cooked_rabbit",
+-		"minecraft:bowl",
+-		"minecraft:carrot",
+-		"minecraft:red_mushroom"
++		{
++			"item": "minecraft:baked_potato"
++		},
++		{
++			"item": "minecraft:cooked_rabbit"
++		},
++		{
++			"item": "minecraft:bowl"
++		},
++		{
++			"item": "minecraft:carrot"
++		},
++		{
++			"item": "minecraft:red_mushroom"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,45 @@
+--- ./000_base/hay_block.json	2025-12-03 19:08:29.019734851 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/hay_block.json	2025-12-03 19:10:00.135859308 +0300
+@@ -2,15 +2,33 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:wheat",
+-		"minecraft:wheat",
+-		"minecraft:wheat",
+-		"minecraft:wheat",
+-		"minecraft:wheat",
+-		"minecraft:wheat",
+-		"minecraft:wheat",
+-		"minecraft:wheat",
+-		"minecraft:wheat"
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		},
++		{
++			"item": "minecraft:wheat"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

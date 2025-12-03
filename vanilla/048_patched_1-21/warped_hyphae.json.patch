@@ -1,0 +1,13 @@
+--- ./000_base/warped_hyphae.json	2025-12-03 19:08:31.169690036 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/warped_hyphae.json	2025-12-03 19:10:03.712786615 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:warped_stem"
++		"#": {
++			"item": "minecraft:warped_stem"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

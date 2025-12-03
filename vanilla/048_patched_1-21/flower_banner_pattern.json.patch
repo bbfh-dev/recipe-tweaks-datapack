@@ -1,0 +1,17 @@
+--- ./000_base/flower_banner_pattern.json	2025-12-03 19:08:28.793739564 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/flower_banner_pattern.json	2025-12-03 19:09:59.743867279 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:paper",
+-		"minecraft:oxeye_daisy"
++		{
++			"item": "minecraft:paper"
++		},
++		{
++			"item": "minecraft:oxeye_daisy"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

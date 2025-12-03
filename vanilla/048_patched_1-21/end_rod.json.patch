@@ -1,0 +1,17 @@
+--- ./000_base/end_rod.json	2025-12-03 19:08:28.668742171 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/end_rod.json	2025-12-03 19:09:59.501872200 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:popped_chorus_fruit",
+-		"/": "minecraft:blaze_rod"
++		"#": {
++			"item": "minecraft:popped_chorus_fruit"
++		},
++		"/": {
++			"item": "minecraft:blaze_rod"
++		}
+ 	},
+ 	"pattern": [
+ 		"/",

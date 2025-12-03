@@ -1,0 +1,11 @@
+--- ./000_base/brown_shulker_box.json	2025-12-03 19:08:27.586764738 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/brown_shulker_box.json	2025-12-03 19:12:20.775046902 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "shulker_box_dye",
+ 	"input": "#minecraft:shulker_boxes",
+ 	"material": "minecraft:brown_dye",
+-	"result": "minecraft:brown_shulker_box"
++	"result": {
++		"id": "minecraft:brown_shulker_box"
++	}
+ }

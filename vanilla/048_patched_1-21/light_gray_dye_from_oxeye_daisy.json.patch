@@ -1,0 +1,13 @@
+--- ./000_base/light_gray_dye_from_oxeye_daisy.json	2025-12-03 19:08:29.297729055 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/light_gray_dye_from_oxeye_daisy.json	2025-12-03 19:10:00.661848615 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "light_gray_dye",
+ 	"ingredients": [
+-		"minecraft:oxeye_daisy"
++		{
++			"item": "minecraft:oxeye_daisy"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

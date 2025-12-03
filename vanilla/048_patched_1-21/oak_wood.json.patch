@@ -1,0 +1,13 @@
+--- ./000_base/oak_wood.json	2025-12-03 19:08:29.743719757 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oak_wood.json	2025-12-03 19:10:01.428833024 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:oak_log"
++		"#": {
++			"item": "minecraft:oak_log"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

@@ -1,0 +1,17 @@
+--- ./000_base/spectral_arrow.json	2025-12-03 19:08:30.777698205 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spectral_arrow.json	2025-12-03 19:10:03.108798885 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:glowstone_dust",
+-		"X": "minecraft:arrow"
++		"#": {
++			"item": "minecraft:glowstone_dust"
++		},
++		"X": {
++			"item": "minecraft:arrow"
++		}
+ 	},
+ 	"pattern": [
+ 		" # ",

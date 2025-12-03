@@ -1,0 +1,13 @@
+--- ./000_base/stick_from_bamboo_item.json	2025-12-03 19:08:30.843696829 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stick_from_bamboo_item.json	2025-12-03 19:10:03.220796610 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "sticks",
+ 	"key": {
+-		"#": "minecraft:bamboo"
++		"#": {
++			"item": "minecraft:bamboo"
++		}
+ 	},
+ 	"pattern": [
+ 		"#",

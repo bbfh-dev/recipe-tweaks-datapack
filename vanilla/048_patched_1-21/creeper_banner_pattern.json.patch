@@ -1,0 +1,17 @@
+--- ./000_base/creeper_banner_pattern.json	2025-12-03 19:08:28.054754975 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/creeper_banner_pattern.json	2025-12-03 19:09:58.382894958 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:paper",
+-		"minecraft:creeper_head"
++		{
++			"item": "minecraft:paper"
++		},
++		{
++			"item": "minecraft:creeper_head"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

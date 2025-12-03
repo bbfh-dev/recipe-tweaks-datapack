@@ -1,0 +1,13 @@
+--- ./000_base/crimson_button.json	2025-12-03 19:08:28.059754871 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crimson_button.json	2025-12-03 19:09:58.388894836 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_button",
+ 	"ingredients": [
+-		"minecraft:crimson_planks"
++		{
++			"item": "minecraft:crimson_planks"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

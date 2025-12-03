@@ -1,0 +1,17 @@
+--- ./000_base/lime_stained_glass.json	2025-12-03 19:08:29.356727825 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lime_stained_glass.json	2025-12-03 19:10:00.764846521 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "stained_glass",
+ 	"key": {
+-		"#": "minecraft:glass",
+-		"X": "minecraft:lime_dye"
++		"#": {
++			"item": "minecraft:glass"
++		},
++		"X": {
++			"item": "minecraft:lime_dye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

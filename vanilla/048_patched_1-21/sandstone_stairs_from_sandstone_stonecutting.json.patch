@@ -1,0 +1,12 @@
+--- ./000_base/sandstone_stairs_from_sandstone_stonecutting.json	2025-12-03 19:08:30.621701456 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/sandstone_stairs_from_sandstone_stonecutting.json	2025-12-03 19:10:02.812804899 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:sandstone",
++	"ingredient": {
++		"item": "minecraft:sandstone"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:sandstone_stairs"

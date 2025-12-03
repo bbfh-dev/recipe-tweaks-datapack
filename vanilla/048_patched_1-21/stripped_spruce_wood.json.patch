@@ -1,0 +1,13 @@
+--- ./000_base/stripped_spruce_wood.json	2025-12-03 19:08:30.965694287 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stripped_spruce_wood.json	2025-12-03 19:10:03.422792506 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:stripped_spruce_log"
++		"#": {
++			"item": "minecraft:stripped_spruce_log"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

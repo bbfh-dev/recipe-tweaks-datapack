@@ -1,0 +1,17 @@
+--- ./000_base/oak_hanging_sign.json	2025-12-03 19:08:29.720720236 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oak_hanging_sign.json	2025-12-03 19:10:01.385833898 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "hanging_sign",
+ 	"key": {
+-		"#": "minecraft:stripped_oak_log",
+-		"X": "minecraft:chain"
++		"#": {
++			"item": "minecraft:stripped_oak_log"
++		},
++		"X": {
++			"item": "minecraft:chain"
++		}
+ 	},
+ 	"pattern": [
+ 		"X X",

@@ -1,0 +1,17 @@
+--- ./000_base/rail.json	2025-12-03 19:08:30.402706021 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/rail.json	2025-12-03 19:10:02.493811381 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"X X",

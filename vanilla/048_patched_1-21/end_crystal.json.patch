@@ -1,0 +1,21 @@
+--- ./000_base/end_crystal.json	2025-12-03 19:08:28.659742359 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/end_crystal.json	2025-12-03 19:09:59.481872606 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"E": "minecraft:ender_eye",
+-		"G": "minecraft:glass",
+-		"T": "minecraft:ghast_tear"
++		"E": {
++			"item": "minecraft:ender_eye"
++		},
++		"G": {
++			"item": "minecraft:glass"
++		},
++		"T": {
++			"item": "minecraft:ghast_tear"
++		}
+ 	},
+ 	"pattern": [
+ 		"GGG",

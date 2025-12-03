@@ -1,0 +1,13 @@
+--- ./000_base/granite_stairs.json	2025-12-03 19:08:28.923736853 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/granite_stairs.json	2025-12-03 19:09:59.972862622 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"#": "minecraft:granite"
++		"#": {
++			"item": "minecraft:granite"
++		}
+ 	},
+ 	"pattern": [
+ 		"#  ",

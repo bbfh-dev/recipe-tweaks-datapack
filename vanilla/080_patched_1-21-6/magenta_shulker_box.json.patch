@@ -1,0 +1,11 @@
+--- ./000_base/magenta_shulker_box.json	2025-12-03 19:08:29.420726491 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/magenta_shulker_box.json	2025-12-03 19:12:23.998983437 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "shulker_box_dye",
+ 	"input": "#minecraft:shulker_boxes",
+ 	"material": "minecraft:magenta_dye",
+-	"result": "minecraft:magenta_shulker_box"
++	"result": {
++		"id": "minecraft:magenta_shulker_box"
++	}
+ }

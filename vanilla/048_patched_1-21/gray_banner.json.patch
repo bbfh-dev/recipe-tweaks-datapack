@@ -1,0 +1,17 @@
+--- ./000_base/gray_banner.json	2025-12-03 19:08:28.932736665 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/gray_banner.json	2025-12-03 19:09:59.989862276 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "banner",
+ 	"key": {
+-		"#": "minecraft:gray_wool",
+-		"|": "minecraft:stick"
++		"#": {
++			"item": "minecraft:gray_wool"
++		},
++		"|": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

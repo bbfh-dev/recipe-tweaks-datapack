@@ -1,0 +1,17 @@
+--- ./000_base/jukebox.json	2025-12-03 19:08:29.126732620 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jukebox.json	2025-12-03 19:10:00.350854937 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:planks",
+-		"X": "minecraft:diamond"
++		"#": {
++			"tag": "minecraft:planks"
++		},
++		"X": {
++			"item": "minecraft:diamond"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

@@ -1,0 +1,21 @@
+--- ./000_base/daylight_detector.json	2025-12-03 19:08:28.264750596 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/daylight_detector.json	2025-12-03 19:09:58.736887758 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"G": "minecraft:glass",
+-		"Q": "minecraft:quartz",
+-		"W": "#minecraft:wooden_slabs"
++		"G": {
++			"item": "minecraft:glass"
++		},
++		"Q": {
++			"item": "minecraft:quartz"
++		},
++		"W": {
++			"tag": "minecraft:wooden_slabs"
++		}
+ 	},
+ 	"pattern": [
+ 		"GGG",

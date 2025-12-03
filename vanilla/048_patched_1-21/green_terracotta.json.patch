@@ -1,0 +1,17 @@
+--- ./000_base/green_terracotta.json	2025-12-03 19:08:29.012734997 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/green_terracotta.json	2025-12-03 19:10:00.123859552 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "stained_terracotta",
+ 	"key": {
+-		"#": "minecraft:terracotta",
+-		"X": "minecraft:green_dye"
++		"#": {
++			"item": "minecraft:terracotta"
++		},
++		"X": {
++			"item": "minecraft:green_dye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

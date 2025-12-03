@@ -1,0 +1,17 @@
+--- ./000_base/chain.json	2025-12-03 19:08:27.645763507 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/chain.json	2025-12-03 19:09:57.709908648 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"I": "minecraft:iron_ingot",
+-		"N": "minecraft:iron_nugget"
++		"I": {
++			"item": "minecraft:iron_ingot"
++		},
++		"N": {
++			"item": "minecraft:iron_nugget"
++		}
+ 	},
+ 	"pattern": [
+ 		"N",

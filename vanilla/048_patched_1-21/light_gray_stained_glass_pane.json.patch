@@ -1,0 +1,13 @@
+--- ./000_base/light_gray_stained_glass_pane.json	2025-12-03 19:08:29.316728659 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/light_gray_stained_glass_pane.json	2025-12-03 19:10:00.692847985 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "stained_glass_pane",
+ 	"key": {
+-		"#": "minecraft:light_gray_stained_glass"
++		"#": {
++			"item": "minecraft:light_gray_stained_glass"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

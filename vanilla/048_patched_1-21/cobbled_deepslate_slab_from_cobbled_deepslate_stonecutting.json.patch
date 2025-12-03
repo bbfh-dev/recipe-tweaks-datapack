@@ -1,0 +1,12 @@
+--- ./000_base/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json	2025-12-03 19:08:27.853759168 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json	2025-12-03 19:09:58.040901914 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:cobbled_deepslate",
++	"ingredient": {
++		"item": "minecraft:cobbled_deepslate"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:cobbled_deepslate_slab"

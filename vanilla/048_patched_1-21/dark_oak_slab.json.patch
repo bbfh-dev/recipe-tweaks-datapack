@@ -1,0 +1,13 @@
+--- ./000_base/dark_oak_slab.json	2025-12-03 19:08:28.236751180 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dark_oak_slab.json	2025-12-03 19:09:58.685888795 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:dark_oak_planks"
++		"#": {
++			"item": "minecraft:dark_oak_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

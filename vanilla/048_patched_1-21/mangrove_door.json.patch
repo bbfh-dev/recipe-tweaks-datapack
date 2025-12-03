@@ -1,0 +1,13 @@
+--- ./000_base/mangrove_door.json	2025-12-03 19:08:29.456725740 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mangrove_door.json	2025-12-03 19:10:00.928843187 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_door",
+ 	"key": {
+-		"#": "minecraft:mangrove_planks"
++		"#": {
++			"item": "minecraft:mangrove_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

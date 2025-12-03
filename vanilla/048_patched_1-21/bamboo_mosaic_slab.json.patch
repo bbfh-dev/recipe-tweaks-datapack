@@ -1,0 +1,13 @@
+--- ./000_base/bamboo_mosaic_slab.json	2025-12-03 19:08:27.266771413 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/bamboo_mosaic_slab.json	2025-12-03 19:09:57.046922138 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"#": "minecraft:bamboo_mosaic"
++		"#": {
++			"item": "minecraft:bamboo_mosaic"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

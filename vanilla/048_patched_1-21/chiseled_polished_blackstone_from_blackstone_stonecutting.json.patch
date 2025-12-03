@@ -1,0 +1,12 @@
+--- ./000_base/chiseled_polished_blackstone_from_blackstone_stonecutting.json	2025-12-03 19:08:27.747761379 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/chiseled_polished_blackstone_from_blackstone_stonecutting.json	2025-12-03 19:09:57.860905576 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:blackstone",
++	"ingredient": {
++		"item": "minecraft:blackstone"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:chiseled_polished_blackstone"

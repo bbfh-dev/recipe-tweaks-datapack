@@ -1,0 +1,12 @@
+--- ./000_base/diorite_wall_from_diorite_stonecutting.json	2025-12-03 19:08:28.444746842 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/diorite_wall_from_diorite_stonecutting.json	2025-12-03 19:09:59.070880964 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:diorite",
++	"ingredient": {
++		"item": "minecraft:diorite"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:diorite_wall"

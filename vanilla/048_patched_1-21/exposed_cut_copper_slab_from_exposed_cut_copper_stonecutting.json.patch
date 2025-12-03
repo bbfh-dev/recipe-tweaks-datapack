@@ -1,0 +1,12 @@
+--- ./000_base/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json	2025-12-03 19:08:28.736740753 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json	2025-12-03 19:09:59.630869577 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:exposed_cut_copper",
++	"ingredient": {
++		"item": "minecraft:exposed_cut_copper"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:exposed_cut_copper_slab"

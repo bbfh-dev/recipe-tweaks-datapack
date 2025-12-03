@@ -1,0 +1,13 @@
+--- ./000_base/slime_block.json	2025-12-03 19:08:30.681700206 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/slime_block.json	2025-12-03 19:10:02.928802542 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:slime_ball"
++		"#": {
++			"item": "minecraft:slime_ball"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

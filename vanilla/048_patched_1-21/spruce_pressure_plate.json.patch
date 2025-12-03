@@ -1,0 +1,13 @@
+--- ./000_base/spruce_pressure_plate.json	2025-12-03 19:08:30.816697392 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_pressure_plate.json	2025-12-03 19:10:03.181797402 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_pressure_plate",
+ 	"key": {
+-		"#": "minecraft:spruce_planks"
++		"#": {
++			"item": "minecraft:spruce_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

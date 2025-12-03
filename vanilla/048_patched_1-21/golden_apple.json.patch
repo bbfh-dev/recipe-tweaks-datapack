@@ -1,0 +1,17 @@
+--- ./000_base/golden_apple.json	2025-12-03 19:08:28.832738751 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/golden_apple.json	2025-12-03 19:09:59.809865937 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:gold_ingot",
+-		"X": "minecraft:apple"
++		"#": {
++			"item": "minecraft:gold_ingot"
++		},
++		"X": {
++			"item": "minecraft:apple"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

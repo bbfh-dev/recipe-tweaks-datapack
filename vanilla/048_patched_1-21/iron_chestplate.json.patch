@@ -1,0 +1,13 @@
+--- ./000_base/iron_chestplate.json	2025-12-03 19:08:29.058734038 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/iron_chestplate.json	2025-12-03 19:10:00.218857621 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"X": "minecraft:iron_ingot"
++		"X": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"X X",

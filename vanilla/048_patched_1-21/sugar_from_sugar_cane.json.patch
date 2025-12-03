@@ -1,0 +1,13 @@
+--- ./000_base/sugar_from_sugar_cane.json	2025-12-03 19:08:30.976694057 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/sugar_from_sugar_cane.json	2025-12-03 19:10:03.440792141 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "sugar",
+ 	"ingredients": [
+-		"minecraft:sugar_cane"
++		{
++			"item": "minecraft:sugar_cane"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

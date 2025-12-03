@@ -1,0 +1,25 @@
+--- ./000_base/piston.json	2025-12-03 19:08:29.974714941 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/piston.json	2025-12-03 19:10:01.739826703 +0300
+@@ -2,10 +2,18 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:cobblestone",
+-		"R": "minecraft:redstone",
+-		"T": "#minecraft:planks",
+-		"X": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:cobblestone"
++		},
++		"R": {
++			"item": "minecraft:redstone"
++		},
++		"T": {
++			"tag": "minecraft:planks"
++		},
++		"X": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"TTT",

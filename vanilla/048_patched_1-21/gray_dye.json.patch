@@ -1,0 +1,17 @@
+--- ./000_base/gray_dye.json	2025-12-03 19:08:28.952736248 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/gray_dye.json	2025-12-03 19:10:00.020861646 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:black_dye",
+-		"minecraft:white_dye"
++		{
++			"item": "minecraft:black_dye"
++		},
++		{
++			"item": "minecraft:white_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

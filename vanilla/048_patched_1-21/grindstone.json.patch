@@ -1,0 +1,21 @@
+--- ./000_base/grindstone.json	2025-12-03 19:08:29.016734914 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/grindstone.json	2025-12-03 19:10:00.129859430 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:planks",
+-		"-": "minecraft:stone_slab",
+-		"I": "minecraft:stick"
++		"#": {
++			"tag": "minecraft:planks"
++		},
++		"-": {
++			"item": "minecraft:stone_slab"
++		},
++		"I": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"I-I",

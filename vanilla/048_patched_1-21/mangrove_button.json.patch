@@ -1,0 +1,13 @@
+--- ./000_base/mangrove_button.json	2025-12-03 19:08:29.449725886 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mangrove_button.json	2025-12-03 19:10:00.917843410 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_button",
+ 	"ingredients": [
+-		"minecraft:mangrove_planks"
++		{
++			"item": "minecraft:mangrove_planks"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

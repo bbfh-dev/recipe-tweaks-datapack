@@ -1,0 +1,17 @@
+--- ./000_base/brewing_stand.json	2025-12-03 19:08:27.528765948 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/brewing_stand.json	2025-12-03 19:09:57.524912413 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:stone_crafting_materials",
+-		"B": "minecraft:blaze_rod"
++		"#": {
++			"tag": "minecraft:stone_crafting_materials"
++		},
++		"B": {
++			"item": "minecraft:blaze_rod"
++		}
+ 	},
+ 	"pattern": [
+ 		" B ",

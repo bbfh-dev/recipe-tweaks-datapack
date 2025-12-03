@@ -1,0 +1,21 @@
+--- ./000_base/magenta_dye_from_blue_red_pink.json	2025-12-03 19:08:29.403726846 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/magenta_dye_from_blue_red_pink.json	2025-12-03 19:10:00.844844894 +0300
+@@ -3,9 +3,15 @@
+ 	"category": "misc",
+ 	"group": "magenta_dye",
+ 	"ingredients": [
+-		"minecraft:blue_dye",
+-		"minecraft:red_dye",
+-		"minecraft:pink_dye"
++		{
++			"item": "minecraft:blue_dye"
++		},
++		{
++			"item": "minecraft:red_dye"
++		},
++		{
++			"item": "minecraft:pink_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 3,

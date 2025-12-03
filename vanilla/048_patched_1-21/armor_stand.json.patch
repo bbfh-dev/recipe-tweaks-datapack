@@ -1,0 +1,17 @@
+--- ./000_base/armor_stand.json	2025-12-03 19:08:27.215772477 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/armor_stand.json	2025-12-03 19:09:56.970923684 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"/": "minecraft:stick",
+-		"_": "minecraft:smooth_stone_slab"
++		"/": {
++			"item": "minecraft:stick"
++		},
++		"_": {
++			"item": "minecraft:smooth_stone_slab"
++		}
+ 	},
+ 	"pattern": [
+ 		"///",

@@ -1,0 +1,12 @@
+--- ./000_base/end_stone_brick_wall_from_end_stone_brick_stonecutting.json	2025-12-03 19:08:28.697741566 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/end_stone_brick_wall_from_end_stone_brick_stonecutting.json	2025-12-03 19:09:59.557871061 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:end_stone_bricks",
++	"ingredient": {
++		"item": "minecraft:end_stone_bricks"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:end_stone_brick_wall"

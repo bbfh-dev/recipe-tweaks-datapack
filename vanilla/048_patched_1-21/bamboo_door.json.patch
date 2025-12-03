@@ -1,0 +1,13 @@
+--- ./000_base/bamboo_door.json	2025-12-03 19:08:27.246771830 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/bamboo_door.json	2025-12-03 19:09:57.019922687 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_door",
+ 	"key": {
+-		"#": "minecraft:bamboo_planks"
++		"#": {
++			"item": "minecraft:bamboo_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

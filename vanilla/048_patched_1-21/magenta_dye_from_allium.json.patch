@@ -1,0 +1,13 @@
+--- ./000_base/magenta_dye_from_allium.json	2025-12-03 19:08:29.399726929 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/magenta_dye_from_allium.json	2025-12-03 19:10:00.838845016 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "magenta_dye",
+ 	"ingredients": [
+-		"minecraft:allium"
++		{
++			"item": "minecraft:allium"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,17 @@
+--- ./000_base/shulker_box.json	2025-12-03 19:08:30.664700560 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/shulker_box.json	2025-12-03 19:10:02.896803192 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:chest",
+-		"-": "minecraft:shulker_shell"
++		"#": {
++			"item": "minecraft:chest"
++		},
++		"-": {
++			"item": "minecraft:shulker_shell"
++		}
+ 	},
+ 	"pattern": [
+ 		"-",

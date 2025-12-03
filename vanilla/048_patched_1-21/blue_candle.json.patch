@@ -1,0 +1,17 @@
+--- ./000_base/blue_candle.json	2025-12-03 19:08:27.454767491 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/blue_candle.json	2025-12-03 19:09:57.375915444 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "dyed_candle",
+ 	"ingredients": [
+-		"minecraft:candle",
+-		"minecraft:blue_dye"
++		{
++			"item": "minecraft:candle"
++		},
++		{
++			"item": "minecraft:blue_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

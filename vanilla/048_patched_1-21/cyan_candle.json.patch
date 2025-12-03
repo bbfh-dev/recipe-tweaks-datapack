@@ -1,0 +1,17 @@
+--- ./000_base/cyan_candle.json	2025-12-03 19:08:28.171752535 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_candle.json	2025-12-03 19:09:58.572891093 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "dyed_candle",
+ 	"ingredients": [
+-		"minecraft:candle",
+-		"minecraft:cyan_dye"
++		{
++			"item": "minecraft:candle"
++		},
++		{
++			"item": "minecraft:cyan_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

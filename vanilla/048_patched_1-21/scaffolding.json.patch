@@ -1,0 +1,17 @@
+--- ./000_base/scaffolding.json	2025-12-03 19:08:30.634701185 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/scaffolding.json	2025-12-03 19:10:02.838804371 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"I": "minecraft:bamboo",
+-		"~": "minecraft:string"
++		"I": {
++			"item": "minecraft:bamboo"
++		},
++		"~": {
++			"item": "minecraft:string"
++		}
+ 	},
+ 	"pattern": [
+ 		"I~I",

@@ -1,0 +1,13 @@
+--- ./000_base/deepslate_bricks.json	2025-12-03 19:08:28.280750262 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/deepslate_bricks.json	2025-12-03 19:09:58.764887188 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"S": "minecraft:polished_deepslate"
++		"S": {
++			"item": "minecraft:polished_deepslate"
++		}
+ 	},
+ 	"pattern": [
+ 		"SS",

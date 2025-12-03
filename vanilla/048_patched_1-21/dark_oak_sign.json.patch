@@ -1,0 +1,17 @@
+--- ./000_base/dark_oak_sign.json	2025-12-03 19:08:28.232751263 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dark_oak_sign.json	2025-12-03 19:09:58.680888897 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_sign",
+ 	"key": {
+-		"#": "minecraft:dark_oak_planks",
+-		"X": "minecraft:stick"
++		"#": {
++			"item": "minecraft:dark_oak_planks"
++		},
++		"X": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

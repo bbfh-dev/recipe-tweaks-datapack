@@ -1,0 +1,11 @@
+--- ./000_base/orange_bundle.json	2025-12-03 19:08:29.756719486 +0300
++++ /tmp/tmp.U370XMDO61/data/minecraft/recipe/orange_bundle.json	2025-12-03 19:10:57.611698991 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "bundle_dye",
+ 	"input": "#minecraft:bundles",
+ 	"material": "minecraft:orange_dye",
+-	"result": "minecraft:orange_bundle"
++	"result": {
++		"id": "minecraft:orange_bundle"
++	}
+ }

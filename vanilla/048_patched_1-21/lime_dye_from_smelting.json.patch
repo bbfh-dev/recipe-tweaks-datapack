@@ -1,0 +1,13 @@
+--- ./000_base/lime_dye_from_smelting.json	2025-12-03 19:08:29.344728075 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lime_dye_from_smelting.json	2025-12-03 19:10:00.745846907 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:sea_pickle",
++	"ingredient": {
++		"item": "minecraft:sea_pickle"
++	},
+ 	"result": {
+ 		"id": "minecraft:lime_dye"
+ 	}

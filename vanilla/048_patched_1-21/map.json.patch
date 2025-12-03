@@ -1,0 +1,17 @@
+--- ./000_base/map.json	2025-12-03 19:08:29.501724802 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/map.json	2025-12-03 19:10:01.003841662 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:paper",
+-		"X": "minecraft:compass"
++		"#": {
++			"item": "minecraft:paper"
++		},
++		"X": {
++			"item": "minecraft:compass"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

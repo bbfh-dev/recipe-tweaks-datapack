@@ -1,0 +1,13 @@
+--- ./000_base/minecart.json	2025-12-03 19:08:29.510724615 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/minecart.json	2025-12-03 19:10:01.021841296 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"# #",

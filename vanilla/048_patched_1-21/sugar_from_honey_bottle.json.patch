@@ -1,0 +1,13 @@
+--- ./000_base/sugar_from_honey_bottle.json	2025-12-03 19:08:30.972694141 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/sugar_from_honey_bottle.json	2025-12-03 19:10:03.435792242 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "sugar",
+ 	"ingredients": [
+-		"minecraft:honey_bottle"
++		{
++			"item": "minecraft:honey_bottle"
++		}
+ 	],
+ 	"result": {
+ 		"count": 3,

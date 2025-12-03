@@ -1,0 +1,17 @@
+--- ./000_base/waxed_weathered_cut_copper_slab_from_honeycomb.json	2025-12-03 19:08:31.444684306 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_weathered_cut_copper_slab_from_honeycomb.json	2025-12-03 19:10:04.228776134 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "waxed_weathered_cut_copper_slab",
+ 	"ingredients": [
+-		"minecraft:weathered_cut_copper_slab",
+-		"minecraft:honeycomb"
++		{
++			"item": "minecraft:weathered_cut_copper_slab"
++		},
++		{
++			"item": "minecraft:honeycomb"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

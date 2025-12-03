@@ -1,0 +1,13 @@
+--- ./000_base/orange_glazed_terracotta.json	2025-12-03 19:08:29.783718923 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_glazed_terracotta.json	2025-12-03 19:10:01.490831764 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:orange_terracotta",
++	"ingredient": {
++		"item": "minecraft:orange_terracotta"
++	},
+ 	"result": {
+ 		"id": "minecraft:orange_glazed_terracotta"
+ 	}

@@ -1,0 +1,17 @@
+--- ./000_base/sticky_piston.json	2025-12-03 19:08:30.848696725 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/sticky_piston.json	2025-12-03 19:10:03.231796386 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"P": "minecraft:piston",
+-		"S": "minecraft:slime_ball"
++		"P": {
++			"item": "minecraft:piston"
++		},
++		"S": {
++			"item": "minecraft:slime_ball"
++		}
+ 	},
+ 	"pattern": [
+ 		"S",

@@ -1,0 +1,21 @@
+--- ./000_base/light_gray_dye_from_black_white_dye.json	2025-12-03 19:08:29.290729201 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/light_gray_dye_from_black_white_dye.json	2025-12-03 19:10:00.650848838 +0300
+@@ -3,9 +3,15 @@
+ 	"category": "misc",
+ 	"group": "light_gray_dye",
+ 	"ingredients": [
+-		"minecraft:black_dye",
+-		"minecraft:white_dye",
+-		"minecraft:white_dye"
++		{
++			"item": "minecraft:black_dye"
++		},
++		{
++			"item": "minecraft:white_dye"
++		},
++		{
++			"item": "minecraft:white_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 3,

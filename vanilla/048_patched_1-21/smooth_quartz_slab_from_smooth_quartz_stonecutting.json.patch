@@ -1,0 +1,12 @@
+--- ./000_base/smooth_quartz_slab_from_smooth_quartz_stonecutting.json	2025-12-03 19:08:30.699699831 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/smooth_quartz_slab_from_smooth_quartz_stonecutting.json	2025-12-03 19:10:02.958801932 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:smooth_quartz",
++	"ingredient": {
++		"item": "minecraft:smooth_quartz"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:smooth_quartz_slab"

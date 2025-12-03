@@ -1,0 +1,17 @@
+--- ./000_base/birch_chest_boat.json	2025-12-03 19:08:27.327770141 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/birch_chest_boat.json	2025-12-03 19:09:57.142920184 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "chest_boat",
+ 	"ingredients": [
+-		"minecraft:chest",
+-		"minecraft:birch_boat"
++		{
++			"item": "minecraft:chest"
++		},
++		{
++			"item": "minecraft:birch_boat"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

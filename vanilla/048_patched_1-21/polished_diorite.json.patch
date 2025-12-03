@@ -1,0 +1,13 @@
+--- ./000_base/polished_diorite.json	2025-12-03 19:08:30.142711440 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_diorite.json	2025-12-03 19:10:02.044820504 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"S": "minecraft:diorite"
++		"S": {
++			"item": "minecraft:diorite"
++		}
+ 	},
+ 	"pattern": [
+ 		"SS",

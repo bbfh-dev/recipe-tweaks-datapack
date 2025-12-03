@@ -1,0 +1,17 @@
+--- ./000_base/smithing_table.json	2025-12-03 19:08:30.685700122 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/smithing_table.json	2025-12-03 19:10:02.935802399 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:planks",
+-		"@": "minecraft:iron_ingot"
++		"#": {
++			"tag": "minecraft:planks"
++		},
++		"@": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"@@",

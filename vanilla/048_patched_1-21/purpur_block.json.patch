@@ -1,0 +1,13 @@
+--- ./000_base/purpur_block.json	2025-12-03 19:08:30.335707417 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/purpur_block.json	2025-12-03 19:10:02.371813860 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"F": "minecraft:popped_chorus_fruit"
++		"F": {
++			"item": "minecraft:popped_chorus_fruit"
++		}
+ 	},
+ 	"pattern": [
+ 		"FF",

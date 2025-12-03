@@ -1,0 +1,17 @@
+--- ./000_base/cyan_dye.json	2025-12-03 19:08:28.183752285 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_dye.json	2025-12-03 19:09:58.596890605 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "cyan_dye",
+ 	"ingredients": [
+-		"minecraft:blue_dye",
+-		"minecraft:green_dye"
++		{
++			"item": "minecraft:blue_dye"
++		},
++		{
++			"item": "minecraft:green_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

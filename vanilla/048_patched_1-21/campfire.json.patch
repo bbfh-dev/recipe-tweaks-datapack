@@ -1,0 +1,21 @@
+--- ./000_base/campfire.json	2025-12-03 19:08:27.617764091 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/campfire.json	2025-12-03 19:09:57.678909279 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"C": "#minecraft:coals",
+-		"L": "#minecraft:logs",
+-		"S": "minecraft:stick"
++		"C": {
++			"tag": "minecraft:coals"
++		},
++		"L": {
++			"tag": "minecraft:logs"
++		},
++		"S": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		" S ",

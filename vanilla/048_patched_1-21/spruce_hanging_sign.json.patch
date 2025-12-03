@@ -1,0 +1,17 @@
+--- ./000_base/spruce_hanging_sign.json	2025-12-03 19:08:30.810697517 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_hanging_sign.json	2025-12-03 19:10:03.171544400 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "hanging_sign",
+ 	"key": {
+-		"#": "minecraft:stripped_spruce_log",
+-		"X": "minecraft:chain"
++		"#": {
++			"item": "minecraft:stripped_spruce_log"
++		},
++		"X": {
++			"item": "minecraft:chain"
++		}
+ 	},
+ 	"pattern": [
+ 		"X X",

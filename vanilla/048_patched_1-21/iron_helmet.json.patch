@@ -1,0 +1,13 @@
+--- ./000_base/iron_helmet.json	2025-12-03 19:08:29.065733892 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/iron_helmet.json	2025-12-03 19:10:00.230857377 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"X": "minecraft:iron_ingot"
++		"X": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"XXX",

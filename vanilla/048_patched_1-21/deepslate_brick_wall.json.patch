@@ -1,0 +1,13 @@
+--- ./000_base/deepslate_brick_wall.json	2025-12-03 19:08:28.315749532 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/deepslate_brick_wall.json	2025-12-03 19:09:58.832885805 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:deepslate_bricks"
++		"#": {
++			"item": "minecraft:deepslate_bricks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

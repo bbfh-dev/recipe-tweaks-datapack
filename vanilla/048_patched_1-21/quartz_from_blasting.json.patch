@@ -1,0 +1,13 @@
+--- ./000_base/quartz_from_blasting.json	2025-12-03 19:08:30.369706709 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/quartz_from_blasting.json	2025-12-03 19:10:02.432812620 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"cookingtime": 100,
+ 	"experience": 0.2,
+-	"ingredient": "minecraft:nether_quartz_ore",
++	"ingredient": {
++		"item": "minecraft:nether_quartz_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:quartz"
+ 	}

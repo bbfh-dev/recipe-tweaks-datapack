@@ -1,0 +1,13 @@
+--- ./000_base/orange_carpet.json	2025-12-03 19:08:29.763719340 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_carpet.json	2025-12-03 19:10:01.458832414 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "carpet",
+ 	"key": {
+-		"#": "minecraft:orange_wool"
++		"#": {
++			"item": "minecraft:orange_wool"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

@@ -1,0 +1,13 @@
+--- ./000_base/acacia_button.json	2025-12-03 19:08:27.129774271 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/acacia_button.json	2025-12-03 19:09:56.830926533 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_button",
+ 	"ingredients": [
+-		"minecraft:acacia_planks"
++		{
++			"item": "minecraft:acacia_planks"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

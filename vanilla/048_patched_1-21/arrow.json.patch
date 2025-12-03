@@ -1,0 +1,21 @@
+--- ./000_base/arrow.json	2025-12-03 19:08:27.218772414 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/arrow.json	2025-12-03 19:09:56.976923562 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "minecraft:flint",
+-		"Y": "minecraft:feather"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"item": "minecraft:flint"
++		},
++		"Y": {
++			"item": "minecraft:feather"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

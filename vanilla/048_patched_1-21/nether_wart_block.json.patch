@@ -1,0 +1,45 @@
+--- ./000_base/nether_wart_block.json	2025-12-03 19:08:29.689720883 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/nether_wart_block.json	2025-12-03 19:10:01.342834772 +0300
+@@ -2,15 +2,33 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart",
+-		"minecraft:nether_wart"
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		},
++		{
++			"item": "minecraft:nether_wart"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

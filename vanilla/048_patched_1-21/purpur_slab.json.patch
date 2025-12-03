@@ -1,0 +1,17 @@
+--- ./000_base/purpur_slab.json	2025-12-03 19:08:30.347707167 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/purpur_slab.json	2025-12-03 19:10:02.396813352 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"key": {
+ 		"#": [
+-			"minecraft:purpur_block",
+-			"minecraft:purpur_pillar"
++			{
++				"item": "minecraft:purpur_block"
++			},
++			{
++				"item": "minecraft:purpur_pillar"
++			}
+ 		]
+ 	},
+ 	"pattern": [

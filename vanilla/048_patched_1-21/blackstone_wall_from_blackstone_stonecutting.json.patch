@@ -1,0 +1,12 @@
+--- ./000_base/blackstone_wall_from_blackstone_stonecutting.json	2025-12-03 19:08:27.430767992 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/blackstone_wall_from_blackstone_stonecutting.json	2025-12-03 19:09:57.326916441 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:blackstone",
++	"ingredient": {
++		"item": "minecraft:blackstone"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:blackstone_wall"

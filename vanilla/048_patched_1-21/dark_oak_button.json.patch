@@ -1,0 +1,13 @@
+--- ./000_base/dark_oak_button.json	2025-12-03 19:08:28.208751764 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dark_oak_button.json	2025-12-03 19:09:58.636889792 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_button",
+ 	"ingredients": [
+-		"minecraft:dark_oak_planks"
++		{
++			"item": "minecraft:dark_oak_planks"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

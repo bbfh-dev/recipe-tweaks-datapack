@@ -1,0 +1,11 @@
+--- ./000_base/acacia_hanging_sign.json	2025-12-03 19:08:27.145773937 +0300
++++ /tmp/tmp.NG75q41QuP/data/minecraft/recipe/acacia_hanging_sign.json	2025-12-03 19:12:59.037296271 +0300
+@@ -4,7 +4,7 @@
+ 	"group": "hanging_sign",
+ 	"key": {
+ 		"#": "minecraft:stripped_acacia_log",
+-		"X": "minecraft:chain"
++		"X": "minecraft:iron_chain"
+ 	},
+ 	"pattern": [
+ 		"X X",

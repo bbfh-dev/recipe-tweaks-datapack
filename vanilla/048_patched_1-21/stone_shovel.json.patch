@@ -1,0 +1,17 @@
+--- ./000_base/stone_shovel.json	2025-12-03 19:08:30.914695350 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stone_shovel.json	2025-12-03 19:10:03.343794111 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:stone_tool_materials"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"tag": "minecraft:stone_tool_materials"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

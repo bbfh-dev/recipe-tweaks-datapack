@@ -1,0 +1,13 @@
+--- ./000_base/mangrove_planks.json	2025-12-03 19:08:29.470725449 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mangrove_planks.json	2025-12-03 19:10:00.951842719 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "planks",
+ 	"ingredients": [
+-		"#minecraft:mangrove_logs"
++		{
++			"tag": "minecraft:mangrove_logs"
++		}
+ 	],
+ 	"result": {
+ 		"count": 4,

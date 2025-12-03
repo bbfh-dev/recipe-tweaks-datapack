@@ -1,0 +1,17 @@
+--- ./000_base/crimson_sign.json	2025-12-03 19:08:28.089754246 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crimson_sign.json	2025-12-03 19:09:58.434893900 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_sign",
+ 	"key": {
+-		"#": "minecraft:crimson_planks",
+-		"X": "minecraft:stick"
++		"#": {
++			"item": "minecraft:crimson_planks"
++		},
++		"X": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

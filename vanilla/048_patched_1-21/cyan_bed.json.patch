@@ -1,0 +1,17 @@
+--- ./000_base/cyan_bed.json	2025-12-03 19:08:28.163752702 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_bed.json	2025-12-03 19:09:58.565891236 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "bed",
+ 	"key": {
+-		"#": "minecraft:cyan_wool",
+-		"X": "#minecraft:planks"
++		"#": {
++			"item": "minecraft:cyan_wool"
++		},
++		"X": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

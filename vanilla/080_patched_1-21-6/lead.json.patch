@@ -1,0 +1,16 @@
+--- ./000_base/lead.json	2025-12-03 19:08:29.199731099 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/lead.json	2025-12-03 19:12:23.527992707 +0300
+@@ -2,12 +2,11 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"O": "minecraft:slime_ball",
+ 		"~": "minecraft:string"
+ 	},
+ 	"pattern": [
+ 		"~~ ",
+-		"~O ",
++		"~~ ",
+ 		"  ~"
+ 	],
+ 	"result": {

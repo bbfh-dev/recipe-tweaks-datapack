@@ -1,0 +1,12 @@
+--- ./000_base/quartz_bricks_from_quartz_block_stonecutting.json	2025-12-03 19:08:30.361706875 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/quartz_bricks_from_quartz_block_stonecutting.json	2025-12-03 19:10:02.420812864 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:quartz_block",
++	"ingredient": {
++		"item": "minecraft:quartz_block"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:quartz_bricks"

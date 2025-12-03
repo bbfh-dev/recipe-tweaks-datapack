@@ -1,0 +1,13 @@
+--- ./000_base/red_dye_from_rose_bush.json	2025-12-03 19:08:30.459704833 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_dye_from_rose_bush.json	2025-12-03 19:10:02.590809410 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "red_dye",
+ 	"ingredients": [
+-		"minecraft:rose_bush"
++		{
++			"item": "minecraft:rose_bush"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

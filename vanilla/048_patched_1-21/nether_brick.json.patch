@@ -1,0 +1,13 @@
+--- ./000_base/nether_brick.json	2025-12-03 19:08:29.613722467 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/nether_brick.json	2025-12-03 19:10:01.206837536 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:netherrack",
++	"ingredient": {
++		"item": "minecraft:netherrack"
++	},
+ 	"result": {
+ 		"id": "minecraft:nether_brick"
+ 	}

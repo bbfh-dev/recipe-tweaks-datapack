@@ -1,0 +1,18 @@
+--- ./000_base/wild_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:31.569681702 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/wild_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:10:04.457771483 +0300
+@@ -1,6 +1,12 @@
+ {
+ 	"type": "minecraft:smithing_trim",
+-	"addition": "#minecraft:trim_materials",
+-	"base": "#minecraft:trimmable_armor",
+-	"template": "minecraft:wild_armor_trim_smithing_template"
++	"addition": {
++		"tag": "minecraft:trim_materials"
++	},
++	"base": {
++		"tag": "minecraft:trimmable_armor"
++	},
++	"template": {
++		"item": "minecraft:wild_armor_trim_smithing_template"
++	}
+ }

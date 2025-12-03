@@ -1,0 +1,12 @@
+--- ./000_base/weathered_cut_copper_from_weathered_copper_stonecutting.json	2025-12-03 19:08:31.491683327 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/weathered_cut_copper_from_weathered_copper_stonecutting.json	2025-12-03 19:10:04.320774266 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:weathered_copper",
++	"ingredient": {
++		"item": "minecraft:weathered_copper"
++	},
+ 	"result": {
+ 		"count": 4,
+ 		"id": "minecraft:weathered_cut_copper"

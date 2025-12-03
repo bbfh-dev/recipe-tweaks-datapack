@@ -1,0 +1,13 @@
+--- ./000_base/light_blue_dye_from_blue_orchid.json	2025-12-03 19:08:29.244730160 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/light_blue_dye_from_blue_orchid.json	2025-12-03 19:10:00.570850465 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "light_blue_dye",
+ 	"ingredients": [
+-		"minecraft:blue_orchid"
++		{
++			"item": "minecraft:blue_orchid"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

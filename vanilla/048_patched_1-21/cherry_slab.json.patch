@@ -1,0 +1,13 @@
+--- ./000_base/cherry_slab.json	2025-12-03 19:08:27.697762422 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cherry_slab.json	2025-12-03 19:09:57.781907184 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:cherry_planks"
++		"#": {
++			"item": "minecraft:cherry_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

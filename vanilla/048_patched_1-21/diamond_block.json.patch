@@ -1,0 +1,13 @@
+--- ./000_base/diamond_block.json	2025-12-03 19:08:28.383748114 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/diamond_block.json	2025-12-03 19:09:58.963883140 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"#": "minecraft:diamond"
++		"#": {
++			"item": "minecraft:diamond"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

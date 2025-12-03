@@ -1,0 +1,12 @@
+--- ./000_base/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting.json	2025-12-03 19:08:29.570723364 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting.json	2025-12-03 19:10:01.125839182 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:mossy_stone_bricks",
++	"ingredient": {
++		"item": "minecraft:mossy_stone_bricks"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:mossy_stone_brick_wall"

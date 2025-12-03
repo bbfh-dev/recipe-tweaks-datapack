@@ -1,0 +1,13 @@
+--- ./000_base/glass_bottle.json	2025-12-03 19:08:28.807739272 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/glass_bottle.json	2025-12-03 19:09:59.766866811 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:glass"
++		"#": {
++			"item": "minecraft:glass"
++		}
+ 	},
+ 	"pattern": [
+ 		"# #",

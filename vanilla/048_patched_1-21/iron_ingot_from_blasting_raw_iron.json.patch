@@ -1,0 +1,13 @@
+--- ./000_base/iron_ingot_from_blasting_raw_iron.json	2025-12-03 19:08:29.078733621 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/iron_ingot_from_blasting_raw_iron.json	2025-12-03 19:10:00.254856889 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 100,
+ 	"experience": 0.7,
+ 	"group": "iron_ingot",
+-	"ingredient": "minecraft:raw_iron",
++	"ingredient": {
++		"item": "minecraft:raw_iron"
++	},
+ 	"result": {
+ 		"id": "minecraft:iron_ingot"
+ 	}

@@ -1,0 +1,13 @@
+--- ./000_base/pink_dye_from_pink_petals.json	2025-12-03 19:08:29.940715650 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/pink_dye_from_pink_petals.json	2025-12-03 19:10:01.688827740 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "pink_dye",
+ 	"ingredients": [
+-		"minecraft:pink_petals"
++		{
++			"item": "minecraft:pink_petals"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,17 @@
+--- ./000_base/conduit.json	2025-12-03 19:08:27.903758125 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/conduit.json	2025-12-03 19:09:58.129900104 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:nautilus_shell",
+-		"X": "minecraft:heart_of_the_sea"
++		"#": {
++			"item": "minecraft:nautilus_shell"
++		},
++		"X": {
++			"item": "minecraft:heart_of_the_sea"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

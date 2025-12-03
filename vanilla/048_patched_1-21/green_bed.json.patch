@@ -1,0 +1,17 @@
+--- ./000_base/green_bed.json	2025-12-03 19:08:28.978735706 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/green_bed.json	2025-12-03 19:10:00.063860772 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "bed",
+ 	"key": {
+-		"#": "minecraft:green_wool",
+-		"X": "#minecraft:planks"
++		"#": {
++			"item": "minecraft:green_wool"
++		},
++		"X": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

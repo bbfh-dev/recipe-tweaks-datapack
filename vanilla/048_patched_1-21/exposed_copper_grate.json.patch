@@ -1,0 +1,13 @@
+--- ./000_base/exposed_copper_grate.json	2025-12-03 19:08:28.722741045 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/exposed_copper_grate.json	2025-12-03 19:09:59.605870085 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"M": "minecraft:exposed_copper"
++		"M": {
++			"item": "minecraft:exposed_copper"
++		}
+ 	},
+ 	"pattern": [
+ 		" M ",

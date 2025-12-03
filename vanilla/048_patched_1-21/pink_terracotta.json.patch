@@ -1,0 +1,17 @@
+--- ./000_base/pink_terracotta.json	2025-12-03 19:08:29.971715004 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/pink_terracotta.json	2025-12-03 19:10:01.732826845 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "stained_terracotta",
+ 	"key": {
+-		"#": "minecraft:terracotta",
+-		"X": "minecraft:pink_dye"
++		"#": {
++			"item": "minecraft:terracotta"
++		},
++		"X": {
++			"item": "minecraft:pink_dye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

@@ -1,0 +1,13 @@
+--- ./000_base/gold_ingot_from_blasting_nether_gold_ore.json	2025-12-03 19:08:28.876737833 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/gold_ingot_from_blasting_nether_gold_ore.json	2025-12-03 19:09:59.886864371 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 100,
+ 	"experience": 1.0,
+ 	"group": "gold_ingot",
+-	"ingredient": "minecraft:nether_gold_ore",
++	"ingredient": {
++		"item": "minecraft:nether_gold_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:gold_ingot"
+ 	}

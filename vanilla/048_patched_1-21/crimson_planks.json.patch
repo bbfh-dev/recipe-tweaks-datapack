@@ -1,0 +1,13 @@
+--- ./000_base/crimson_planks.json	2025-12-03 19:08:28.082754392 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crimson_planks.json	2025-12-03 19:09:58.422894145 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "planks",
+ 	"ingredients": [
+-		"#minecraft:crimson_stems"
++		{
++			"tag": "minecraft:crimson_stems"
++		}
+ 	],
+ 	"result": {
+ 		"count": 4,

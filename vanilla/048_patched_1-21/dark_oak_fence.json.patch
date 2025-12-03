@@ -1,0 +1,17 @@
+--- ./000_base/dark_oak_fence.json	2025-12-03 19:08:28.220751514 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dark_oak_fence.json	2025-12-03 19:09:58.656889385 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_fence",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"W": "minecraft:dark_oak_planks"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"W": {
++			"item": "minecraft:dark_oak_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"W#W",

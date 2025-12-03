@@ -1,0 +1,13 @@
+--- ./000_base/leather_chestplate.json	2025-12-03 19:08:29.205730973 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/leather_chestplate.json	2025-12-03 19:10:00.499851908 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"X": "minecraft:leather"
++		"X": {
++			"item": "minecraft:leather"
++		}
+ 	},
+ 	"pattern": [
+ 		"X X",

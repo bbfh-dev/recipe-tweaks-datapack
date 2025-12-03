@@ -1,0 +1,11 @@
+--- ./000_base/cyan_bundle.json	2025-12-03 19:08:28.166752640 +0300
++++ /tmp/tmp.U370XMDO61/data/minecraft/recipe/cyan_bundle.json	2025-12-03 19:10:54.490761586 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "bundle_dye",
+ 	"input": "#minecraft:bundles",
+ 	"material": "minecraft:cyan_dye",
+-	"result": "minecraft:cyan_bundle"
++	"result": {
++		"id": "minecraft:cyan_bundle"
++	}
+ }

@@ -1,0 +1,13 @@
+--- ./000_base/jungle_planks.json	2025-12-03 19:08:29.152732078 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jungle_planks.json	2025-12-03 19:10:00.399853941 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "planks",
+ 	"ingredients": [
+-		"#minecraft:jungle_logs"
++		{
++			"tag": "minecraft:jungle_logs"
++		}
+ 	],
+ 	"result": {
+ 		"count": 4,

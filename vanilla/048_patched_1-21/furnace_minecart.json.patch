@@ -1,0 +1,17 @@
+--- ./000_base/furnace_minecart.json	2025-12-03 19:08:28.803739355 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/furnace_minecart.json	2025-12-03 19:09:59.761866913 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:furnace",
+-		"minecraft:minecart"
++		{
++			"item": "minecraft:furnace"
++		},
++		{
++			"item": "minecraft:minecart"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

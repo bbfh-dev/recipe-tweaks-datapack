@@ -1,0 +1,13 @@
+--- ./000_base/cyan_dye_from_pitcher_plant.json	2025-12-03 19:08:28.180752348 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_dye_from_pitcher_plant.json	2025-12-03 19:09:58.591890707 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "cyan_dye",
+ 	"ingredients": [
+-		"minecraft:pitcher_plant"
++		{
++			"item": "minecraft:pitcher_plant"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

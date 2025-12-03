@@ -1,0 +1,17 @@
+--- ./000_base/smoker.json	2025-12-03 19:08:30.688700060 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/smoker.json	2025-12-03 19:10:02.941802278 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:logs",
+-		"X": "minecraft:furnace"
++		"#": {
++			"tag": "minecraft:logs"
++		},
++		"X": {
++			"item": "minecraft:furnace"
++		}
+ 	},
+ 	"pattern": [
+ 		" # ",

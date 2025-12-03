@@ -1,0 +1,13 @@
+--- ./000_base/white_stained_glass_pane.json	2025-12-03 19:08:31.556681973 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/white_stained_glass_pane.json	2025-12-03 19:10:04.435771930 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "stained_glass_pane",
+ 	"key": {
+-		"#": "minecraft:white_stained_glass"
++		"#": {
++			"item": "minecraft:white_stained_glass"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

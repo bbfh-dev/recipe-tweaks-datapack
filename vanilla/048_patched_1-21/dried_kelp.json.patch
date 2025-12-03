@@ -1,0 +1,13 @@
+--- ./000_base/dried_kelp.json	2025-12-03 19:08:28.467746362 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dried_kelp.json	2025-12-03 19:09:59.119879968 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:dried_kelp_block"
++		{
++			"item": "minecraft:dried_kelp_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

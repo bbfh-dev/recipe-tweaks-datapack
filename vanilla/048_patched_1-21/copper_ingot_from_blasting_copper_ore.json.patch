@@ -1,0 +1,13 @@
+--- ./000_base/copper_ingot_from_blasting_copper_ore.json	2025-12-03 19:08:28.004756018 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/copper_ingot_from_blasting_copper_ore.json	2025-12-03 19:09:58.288896870 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 100,
+ 	"experience": 0.7,
+ 	"group": "copper_ingot",
+-	"ingredient": "minecraft:copper_ore",
++	"ingredient": {
++		"item": "minecraft:copper_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:copper_ingot"
+ 	}

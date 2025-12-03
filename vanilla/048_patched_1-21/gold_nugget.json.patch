@@ -1,0 +1,13 @@
+--- ./000_base/gold_nugget.json	2025-12-03 19:08:28.907737187 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/gold_nugget.json	2025-12-03 19:09:59.943863212 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:gold_ingot"
++		{
++			"item": "minecraft:gold_ingot"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

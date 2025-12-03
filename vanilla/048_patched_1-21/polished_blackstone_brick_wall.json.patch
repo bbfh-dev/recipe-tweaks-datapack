@@ -1,0 +1,13 @@
+--- ./000_base/polished_blackstone_brick_wall.json	2025-12-03 19:08:30.057713211 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_blackstone_brick_wall.json	2025-12-03 19:10:01.887823695 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:polished_blackstone_bricks"
++		"#": {
++			"item": "minecraft:polished_blackstone_bricks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

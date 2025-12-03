@@ -1,0 +1,13 @@
+--- ./000_base/mangrove_stairs.json	2025-12-03 19:08:29.483725177 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mangrove_stairs.json	2025-12-03 19:10:00.973842272 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_stairs",
+ 	"key": {
+-		"#": "minecraft:mangrove_planks"
++		"#": {
++			"item": "minecraft:mangrove_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"#  ",

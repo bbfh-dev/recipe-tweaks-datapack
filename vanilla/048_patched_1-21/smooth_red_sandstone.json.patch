@@ -1,0 +1,13 @@
+--- ./000_base/smooth_red_sandstone.json	2025-12-03 19:08:30.712699560 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/smooth_red_sandstone.json	2025-12-03 19:10:02.981801465 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:red_sandstone",
++	"ingredient": {
++		"item": "minecraft:red_sandstone"
++	},
+ 	"result": {
+ 		"id": "minecraft:smooth_red_sandstone"
+ 	}

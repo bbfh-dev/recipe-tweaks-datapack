@@ -1,0 +1,17 @@
+--- ./000_base/orange_bed.json	2025-12-03 19:08:29.753719549 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_bed.json	2025-12-03 19:10:01.445832678 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "bed",
+ 	"key": {
+-		"#": "minecraft:orange_wool",
+-		"X": "#minecraft:planks"
++		"#": {
++			"item": "minecraft:orange_wool"
++		},
++		"X": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

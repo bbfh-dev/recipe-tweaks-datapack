@@ -1,0 +1,17 @@
+--- ./000_base/lever.json	2025-12-03 19:08:29.223730598 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lever.json	2025-12-03 19:10:00.532851237 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:cobblestone",
+-		"X": "minecraft:stick"
++		"#": {
++			"item": "minecraft:cobblestone"
++		},
++		"X": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

@@ -1,0 +1,12 @@
+--- ./000_base/purpur_stairs_from_purpur_block_stonecutting.json	2025-12-03 19:08:30.351707084 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/purpur_stairs_from_purpur_block_stonecutting.json	2025-12-03 19:10:02.402813230 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:purpur_block",
++	"ingredient": {
++		"item": "minecraft:purpur_block"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:purpur_stairs"

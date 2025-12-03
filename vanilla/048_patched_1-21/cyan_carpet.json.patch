@@ -1,0 +1,13 @@
+--- ./000_base/cyan_carpet.json	2025-12-03 19:08:28.174752473 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_carpet.json	2025-12-03 19:09:58.577890992 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "carpet",
+ 	"key": {
+-		"#": "minecraft:cyan_wool"
++		"#": {
++			"item": "minecraft:cyan_wool"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

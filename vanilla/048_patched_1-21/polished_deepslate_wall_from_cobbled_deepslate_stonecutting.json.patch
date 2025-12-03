@@ -1,0 +1,12 @@
+--- ./000_base/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json	2025-12-03 19:08:30.130711690 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json	2025-12-03 19:10:02.020820992 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:cobbled_deepslate",
++	"ingredient": {
++		"item": "minecraft:cobbled_deepslate"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:polished_deepslate_wall"

@@ -1,0 +1,13 @@
+--- ./000_base/jungle_wood.json	2025-12-03 19:08:29.170731703 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jungle_wood.json	2025-12-03 19:10:00.434853230 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:jungle_log"
++		"#": {
++			"item": "minecraft:jungle_log"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

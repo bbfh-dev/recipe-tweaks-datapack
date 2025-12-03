@@ -1,0 +1,12 @@
+--- ./000_base/smooth_stone_slab_from_smooth_stone_stonecutting.json	2025-12-03 19:08:30.746698851 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/smooth_stone_slab_from_smooth_stone_stonecutting.json	2025-12-03 19:10:03.053800002 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:smooth_stone",
++	"ingredient": {
++		"item": "minecraft:smooth_stone"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:smooth_stone_slab"

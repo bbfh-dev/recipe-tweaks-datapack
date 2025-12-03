@@ -1,0 +1,13 @@
+--- ./000_base/orange_dye_from_torchflower.json	2025-12-03 19:08:29.780718986 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_dye_from_torchflower.json	2025-12-03 19:10:01.484831886 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "orange_dye",
+ 	"ingredients": [
+-		"minecraft:torchflower"
++		{
++			"item": "minecraft:torchflower"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

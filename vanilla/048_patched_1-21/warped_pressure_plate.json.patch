@@ -1,0 +1,13 @@
+--- ./000_base/warped_pressure_plate.json	2025-12-03 19:08:31.175689911 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/warped_pressure_plate.json	2025-12-03 19:10:03.721786432 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_pressure_plate",
+ 	"key": {
+-		"#": "minecraft:warped_planks"
++		"#": {
++			"item": "minecraft:warped_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

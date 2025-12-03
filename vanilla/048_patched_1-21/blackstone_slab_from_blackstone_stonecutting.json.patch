@@ -1,0 +1,12 @@
+--- ./000_base/blackstone_slab_from_blackstone_stonecutting.json	2025-12-03 19:08:27.416768284 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/blackstone_slab_from_blackstone_stonecutting.json	2025-12-03 19:09:57.295917071 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:blackstone",
++	"ingredient": {
++		"item": "minecraft:blackstone"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:blackstone_slab"

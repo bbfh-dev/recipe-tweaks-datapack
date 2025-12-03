@@ -1,0 +1,41 @@
+--- ./000_base/netherite_ingot.json	2025-12-03 19:08:29.662721446 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/netherite_ingot.json	2025-12-03 19:10:01.296835707 +0300
+@@ -3,14 +3,30 @@
+ 	"category": "misc",
+ 	"group": "netherite_ingot",
+ 	"ingredients": [
+-		"minecraft:netherite_scrap",
+-		"minecraft:netherite_scrap",
+-		"minecraft:netherite_scrap",
+-		"minecraft:netherite_scrap",
+-		"minecraft:gold_ingot",
+-		"minecraft:gold_ingot",
+-		"minecraft:gold_ingot",
+-		"minecraft:gold_ingot"
++		{
++			"item": "minecraft:netherite_scrap"
++		},
++		{
++			"item": "minecraft:netherite_scrap"
++		},
++		{
++			"item": "minecraft:netherite_scrap"
++		},
++		{
++			"item": "minecraft:netherite_scrap"
++		},
++		{
++			"item": "minecraft:gold_ingot"
++		},
++		{
++			"item": "minecraft:gold_ingot"
++		},
++		{
++			"item": "minecraft:gold_ingot"
++		},
++		{
++			"item": "minecraft:gold_ingot"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

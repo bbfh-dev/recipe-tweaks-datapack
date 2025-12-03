@@ -1,0 +1,13 @@
+--- ./000_base/slime_ball.json	2025-12-03 19:08:30.678700268 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/slime_ball.json	2025-12-03 19:10:02.921802684 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:slime_block"
++		{
++			"item": "minecraft:slime_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

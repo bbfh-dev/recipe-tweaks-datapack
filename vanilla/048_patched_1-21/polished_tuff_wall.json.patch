@@ -1,0 +1,13 @@
+--- ./000_base/polished_tuff_wall.json	2025-12-03 19:08:30.235709501 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_tuff_wall.json	2025-12-03 19:10:02.196817416 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:polished_tuff"
++		"#": {
++			"item": "minecraft:polished_tuff"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

@@ -1,0 +1,13 @@
+--- ./000_base/blaze_powder.json	2025-12-03 19:08:27.442767742 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/blaze_powder.json	2025-12-03 19:09:57.354915871 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:blaze_rod"
++		{
++			"item": "minecraft:blaze_rod"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

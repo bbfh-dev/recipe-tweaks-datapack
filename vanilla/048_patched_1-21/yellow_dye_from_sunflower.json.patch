@@ -1,0 +1,13 @@
+--- ./000_base/yellow_dye_from_sunflower.json	2025-12-03 19:08:31.619680660 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/yellow_dye_from_sunflower.json	2025-12-03 19:10:04.544769717 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "yellow_dye",
+ 	"ingredients": [
+-		"minecraft:sunflower"
++		{
++			"item": "minecraft:sunflower"
++		}
+ 	],
+ 	"result": {
+ 		"count": 2,

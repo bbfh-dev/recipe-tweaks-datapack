@@ -1,0 +1,17 @@
+--- ./000_base/lantern.json	2025-12-03 19:08:29.176731578 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lantern.json	2025-12-03 19:10:00.447852965 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:torch",
+-		"X": "minecraft:iron_nugget"
++		"#": {
++			"item": "minecraft:torch"
++		},
++		"X": {
++			"item": "minecraft:iron_nugget"
++		}
+ 	},
+ 	"pattern": [
+ 		"XXX",

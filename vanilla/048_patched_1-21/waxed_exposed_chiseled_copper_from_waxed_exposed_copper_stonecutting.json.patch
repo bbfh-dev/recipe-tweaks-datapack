@@ -1,0 +1,12 @@
+--- ./000_base/waxed_exposed_chiseled_copper_from_waxed_exposed_copper_stonecutting.json	2025-12-03 19:08:31.263688078 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_exposed_chiseled_copper_from_waxed_exposed_copper_stonecutting.json	2025-12-03 19:10:03.891782979 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:waxed_exposed_copper",
++	"ingredient": {
++		"item": "minecraft:waxed_exposed_copper"
++	},
+ 	"result": {
+ 		"count": 4,
+ 		"id": "minecraft:waxed_exposed_chiseled_copper"

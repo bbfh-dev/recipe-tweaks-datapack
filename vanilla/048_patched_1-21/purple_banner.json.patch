@@ -1,0 +1,17 @@
+--- ./000_base/purple_banner.json	2025-12-03 19:08:30.290708355 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/purple_banner.json	2025-12-03 19:10:02.299815323 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "banner",
+ 	"key": {
+-		"#": "minecraft:purple_wool",
+-		"|": "minecraft:stick"
++		"#": {
++			"item": "minecraft:purple_wool"
++		},
++		"|": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

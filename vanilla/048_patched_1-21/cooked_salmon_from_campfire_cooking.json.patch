@@ -1,0 +1,13 @@
+--- ./000_base/cooked_salmon_from_campfire_cooking.json	2025-12-03 19:08:27.969756748 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cooked_salmon_from_campfire_cooking.json	2025-12-03 19:09:58.238897887 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "food",
+ 	"cookingtime": 600,
+ 	"experience": 0.35,
+-	"ingredient": "minecraft:salmon",
++	"ingredient": {
++		"item": "minecraft:salmon"
++	},
+ 	"result": {
+ 		"id": "minecraft:cooked_salmon"
+ 	}

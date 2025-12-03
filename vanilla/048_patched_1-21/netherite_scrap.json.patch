@@ -1,0 +1,13 @@
+--- ./000_base/netherite_scrap.json	2025-12-03 19:08:29.675721175 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/netherite_scrap.json	2025-12-03 19:10:01.319835239 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"cookingtime": 200,
+ 	"experience": 2.0,
+-	"ingredient": "minecraft:ancient_debris",
++	"ingredient": {
++		"item": "minecraft:ancient_debris"
++	},
+ 	"result": {
+ 		"id": "minecraft:netherite_scrap"
+ 	}

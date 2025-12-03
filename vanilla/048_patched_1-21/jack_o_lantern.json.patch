@@ -1,0 +1,17 @@
+--- ./000_base/jack_o_lantern.json	2025-12-03 19:08:29.124732662 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jack_o_lantern.json	2025-12-03 19:10:00.344855059 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"A": "minecraft:carved_pumpkin",
+-		"B": "minecraft:torch"
++		"A": {
++			"item": "minecraft:carved_pumpkin"
++		},
++		"B": {
++			"item": "minecraft:torch"
++		}
+ 	},
+ 	"pattern": [
+ 		"A",

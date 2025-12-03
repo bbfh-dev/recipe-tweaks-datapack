@@ -1,0 +1,17 @@
+--- ./000_base/ender_chest.json	2025-12-03 19:08:28.662742296 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/ender_chest.json	2025-12-03 19:09:59.487872485 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:obsidian",
+-		"E": "minecraft:ender_eye"
++		"#": {
++			"item": "minecraft:obsidian"
++		},
++		"E": {
++			"item": "minecraft:ender_eye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

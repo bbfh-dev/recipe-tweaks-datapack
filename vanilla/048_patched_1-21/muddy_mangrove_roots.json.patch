@@ -1,0 +1,17 @@
+--- ./000_base/muddy_mangrove_roots.json	2025-12-03 19:08:29.601722717 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/muddy_mangrove_roots.json	2025-12-03 19:10:01.181838044 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:mud",
+-		"minecraft:mangrove_roots"
++		{
++			"item": "minecraft:mud"
++		},
++		{
++			"item": "minecraft:mangrove_roots"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

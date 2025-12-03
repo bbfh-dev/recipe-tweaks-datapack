@@ -1,0 +1,13 @@
+--- ./000_base/dark_oak_door.json	2025-12-03 19:08:28.214751639 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dark_oak_door.json	2025-12-03 19:09:58.646889588 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_door",
+ 	"key": {
+-		"#": "minecraft:dark_oak_planks"
++		"#": {
++			"item": "minecraft:dark_oak_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

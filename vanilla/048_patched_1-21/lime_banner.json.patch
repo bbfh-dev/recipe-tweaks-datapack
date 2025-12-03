@@ -1,0 +1,17 @@
+--- ./000_base/lime_banner.json	2025-12-03 19:08:29.328728409 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/lime_banner.json	2025-12-03 19:10:00.715847517 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "banner",
+ 	"key": {
+-		"#": "minecraft:lime_wool",
+-		"|": "minecraft:stick"
++		"#": {
++			"item": "minecraft:lime_wool"
++		},
++		"|": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

@@ -1,0 +1,21 @@
+--- ./000_base/dune_armor_trim_smithing_template.json	2025-12-03 19:08:28.477746154 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dune_armor_trim_smithing_template.json	2025-12-03 19:09:59.138879582 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:diamond",
+-		"C": "minecraft:sandstone",
+-		"S": "minecraft:dune_armor_trim_smithing_template"
++		"#": {
++			"item": "minecraft:diamond"
++		},
++		"C": {
++			"item": "minecraft:sandstone"
++		},
++		"S": {
++			"item": "minecraft:dune_armor_trim_smithing_template"
++		}
+ 	},
+ 	"pattern": [
+ 		"#S#",

@@ -1,0 +1,13 @@
+--- ./000_base/glass_pane.json	2025-12-03 19:08:28.813739147 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/glass_pane.json	2025-12-03 19:09:59.778866567 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:glass"
++		"#": {
++			"item": "minecraft:glass"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

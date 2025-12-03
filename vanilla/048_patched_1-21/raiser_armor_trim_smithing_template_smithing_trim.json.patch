@@ -1,0 +1,18 @@
+--- ./000_base/raiser_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:30.409705875 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/raiser_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:10:02.505811137 +0300
+@@ -1,6 +1,12 @@
+ {
+ 	"type": "minecraft:smithing_trim",
+-	"addition": "#minecraft:trim_materials",
+-	"base": "#minecraft:trimmable_armor",
+-	"template": "minecraft:raiser_armor_trim_smithing_template"
++	"addition": {
++		"tag": "minecraft:trim_materials"
++	},
++	"base": {
++		"tag": "minecraft:trimmable_armor"
++	},
++	"template": {
++		"item": "minecraft:raiser_armor_trim_smithing_template"
++	}
+ }

@@ -1,0 +1,17 @@
+--- ./000_base/mojang_banner_pattern.json	2025-12-03 19:08:29.514724531 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mojang_banner_pattern.json	2025-12-03 19:10:01.027841174 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:paper",
+-		"minecraft:enchanted_golden_apple"
++		{
++			"item": "minecraft:paper"
++		},
++		{
++			"item": "minecraft:enchanted_golden_apple"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

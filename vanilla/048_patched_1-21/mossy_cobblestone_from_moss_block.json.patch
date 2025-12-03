@@ -1,0 +1,17 @@
+--- ./000_base/mossy_cobblestone_from_moss_block.json	2025-12-03 19:08:29.521724385 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mossy_cobblestone_from_moss_block.json	2025-12-03 19:10:01.039840930 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "mossy_cobblestone",
+ 	"ingredients": [
+-		"minecraft:cobblestone",
+-		"minecraft:moss_block"
++		{
++			"item": "minecraft:cobblestone"
++		},
++		{
++			"item": "minecraft:moss_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,13 @@
+--- ./000_base/tuff_brick_wall.json	2025-12-03 19:08:31.115691161 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/tuff_brick_wall.json	2025-12-03 19:10:03.609788707 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:tuff_bricks"
++		"#": {
++			"item": "minecraft:tuff_bricks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

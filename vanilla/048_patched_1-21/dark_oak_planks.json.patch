@@ -1,0 +1,13 @@
+--- ./000_base/dark_oak_planks.json	2025-12-03 19:08:28.226751388 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dark_oak_planks.json	2025-12-03 19:09:58.668889141 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "planks",
+ 	"ingredients": [
+-		"#minecraft:dark_oak_logs"
++		{
++			"tag": "minecraft:dark_oak_logs"
++		}
+ 	],
+ 	"result": {
+ 		"count": 4,

@@ -1,0 +1,17 @@
+--- ./000_base/white_candle.json	2025-12-03 19:08:31.529682535 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/white_candle.json	2025-12-03 19:10:04.387772905 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "dyed_candle",
+ 	"ingredients": [
+-		"minecraft:candle",
+-		"minecraft:white_dye"
++		{
++			"item": "minecraft:candle"
++		},
++		{
++			"item": "minecraft:white_dye"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,13 @@
+--- ./000_base/stone_pressure_plate.json	2025-12-03 19:08:30.912695391 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stone_pressure_plate.json	2025-12-03 19:10:03.338794213 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:stone"
++		"#": {
++			"item": "minecraft:stone"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

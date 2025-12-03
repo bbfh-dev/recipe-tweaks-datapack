@@ -1,0 +1,13 @@
+--- ./000_base/oak_button.json	2025-12-03 19:08:29.700720653 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oak_button.json	2025-12-03 19:10:01.358834447 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_button",
+ 	"ingredients": [
+-		"minecraft:oak_planks"
++		{
++			"item": "minecraft:oak_planks"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

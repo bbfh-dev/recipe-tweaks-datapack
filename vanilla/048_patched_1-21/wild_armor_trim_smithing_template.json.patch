@@ -1,0 +1,21 @@
+--- ./000_base/wild_armor_trim_smithing_template.json	2025-12-03 19:08:31.566681764 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/wild_armor_trim_smithing_template.json	2025-12-03 19:10:04.452771585 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:diamond",
+-		"C": "minecraft:mossy_cobblestone",
+-		"S": "minecraft:wild_armor_trim_smithing_template"
++		"#": {
++			"item": "minecraft:diamond"
++		},
++		"C": {
++			"item": "minecraft:mossy_cobblestone"
++		},
++		"S": {
++			"item": "minecraft:wild_armor_trim_smithing_template"
++		}
+ 	},
+ 	"pattern": [
+ 		"#S#",

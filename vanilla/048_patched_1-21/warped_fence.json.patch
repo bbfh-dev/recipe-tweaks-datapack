@@ -1,0 +1,17 @@
+--- ./000_base/warped_fence.json	2025-12-03 19:08:31.160690224 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/warped_fence.json	2025-12-03 19:10:03.696786940 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_fence",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"W": "minecraft:warped_planks"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"W": {
++			"item": "minecraft:warped_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"W#W",

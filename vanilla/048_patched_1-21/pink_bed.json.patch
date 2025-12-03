@@ -1,0 +1,17 @@
+--- ./000_base/pink_bed.json	2025-12-03 19:08:29.919716088 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/pink_bed.json	2025-12-03 19:10:01.653828451 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "bed",
+ 	"key": {
+-		"#": "minecraft:pink_wool",
+-		"X": "#minecraft:planks"
++		"#": {
++			"item": "minecraft:pink_wool"
++		},
++		"X": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

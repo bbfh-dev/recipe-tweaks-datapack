@@ -1,0 +1,21 @@
+--- ./000_base/rib_armor_trim_smithing_template.json	2025-12-03 19:08:30.604701811 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/rib_armor_trim_smithing_template.json	2025-12-03 19:10:02.784805468 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:diamond",
+-		"C": "minecraft:netherrack",
+-		"S": "minecraft:rib_armor_trim_smithing_template"
++		"#": {
++			"item": "minecraft:diamond"
++		},
++		"C": {
++			"item": "minecraft:netherrack"
++		},
++		"S": {
++			"item": "minecraft:rib_armor_trim_smithing_template"
++		}
+ 	},
+ 	"pattern": [
+ 		"#S#",

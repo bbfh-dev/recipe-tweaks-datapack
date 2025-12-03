@@ -1,0 +1,12 @@
+--- ./000_base/tuff_slab_from_tuff_stonecutting.json	2025-12-03 19:08:31.118691099 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/tuff_slab_from_tuff_stonecutting.json	2025-12-03 19:10:03.615788585 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:tuff",
++	"ingredient": {
++		"item": "minecraft:tuff"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:tuff_slab"

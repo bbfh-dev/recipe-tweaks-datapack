@@ -1,0 +1,25 @@
+--- ./000_base/crafter.json	2025-12-03 19:08:28.046755142 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crafter.json	2025-12-03 19:09:58.369895222 +0300
+@@ -2,10 +2,18 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:iron_ingot",
+-		"C": "minecraft:crafting_table",
+-		"D": "minecraft:dropper",
+-		"R": "minecraft:redstone"
++		"#": {
++			"item": "minecraft:iron_ingot"
++		},
++		"C": {
++			"item": "minecraft:crafting_table"
++		},
++		"D": {
++			"item": "minecraft:dropper"
++		},
++		"R": {
++			"item": "minecraft:redstone"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

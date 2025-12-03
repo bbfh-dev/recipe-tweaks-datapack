@@ -1,0 +1,12 @@
+--- ./000_base/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting.json	2025-12-03 19:08:31.334686598 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting.json	2025-12-03 19:10:04.022780318 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:waxed_oxidized_copper",
++	"ingredient": {
++		"item": "minecraft:waxed_oxidized_copper"
++	},
+ 	"result": {
+ 		"count": 4,
+ 		"id": "minecraft:waxed_oxidized_chiseled_copper"

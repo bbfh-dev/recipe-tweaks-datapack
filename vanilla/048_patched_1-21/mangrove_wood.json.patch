@@ -1,0 +1,13 @@
+--- ./000_base/mangrove_wood.json	2025-12-03 19:08:29.490725032 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mangrove_wood.json	2025-12-03 19:10:00.985842028 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:mangrove_log"
++		"#": {
++			"item": "minecraft:mangrove_log"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

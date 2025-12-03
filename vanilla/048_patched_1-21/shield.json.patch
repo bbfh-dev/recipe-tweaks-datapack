@@ -1,0 +1,17 @@
+--- ./000_base/shield.json	2025-12-03 19:08:30.660700644 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/shield.json	2025-12-03 19:10:02.889803334 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"W": "#minecraft:wooden_tool_materials",
+-		"o": "minecraft:iron_ingot"
++		"W": {
++			"tag": "minecraft:planks"
++		},
++		"o": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"WoW",

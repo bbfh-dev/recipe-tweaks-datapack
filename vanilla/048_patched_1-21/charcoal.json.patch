@@ -1,0 +1,13 @@
+--- ./000_base/charcoal.json	2025-12-03 19:08:27.650763403 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/charcoal.json	2025-12-03 19:09:57.715908526 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"cookingtime": 200,
+ 	"experience": 0.15,
+-	"ingredient": "#minecraft:logs_that_burn",
++	"ingredient": {
++		"tag": "minecraft:logs_that_burn"
++	},
+ 	"result": {
+ 		"id": "minecraft:charcoal"
+ 	}

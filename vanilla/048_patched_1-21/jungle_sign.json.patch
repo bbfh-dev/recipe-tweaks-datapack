@@ -1,0 +1,17 @@
+--- ./000_base/jungle_sign.json	2025-12-03 19:08:29.157731974 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jungle_sign.json	2025-12-03 19:10:00.412853677 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_sign",
+ 	"key": {
+-		"#": "minecraft:jungle_planks",
+-		"X": "minecraft:stick"
++		"#": {
++			"item": "minecraft:jungle_planks"
++		},
++		"X": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

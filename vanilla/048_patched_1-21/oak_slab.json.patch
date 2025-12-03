@@ -1,0 +1,13 @@
+--- ./000_base/oak_slab.json	2025-12-03 19:08:29.732719987 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oak_slab.json	2025-12-03 19:10:01.409833410 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:oak_planks"
++		"#": {
++			"item": "minecraft:oak_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

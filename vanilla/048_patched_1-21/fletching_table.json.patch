@@ -1,0 +1,17 @@
+--- ./000_base/fletching_table.json	2025-12-03 19:08:28.782739794 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/fletching_table.json	2025-12-03 19:09:59.719867767 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:planks",
+-		"@": "minecraft:flint"
++		"#": {
++			"tag": "minecraft:planks"
++		},
++		"@": {
++			"item": "minecraft:flint"
++		}
+ 	},
+ 	"pattern": [
+ 		"@@",

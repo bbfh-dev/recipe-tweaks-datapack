@@ -1,0 +1,13 @@
+--- ./000_base/copper_grate.json	2025-12-03 19:08:28.001756081 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/copper_grate.json	2025-12-03 19:09:58.283896972 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"M": "minecraft:copper_block"
++		"M": {
++			"item": "minecraft:copper_block"
++		}
+ 	},
+ 	"pattern": [
+ 		" M ",

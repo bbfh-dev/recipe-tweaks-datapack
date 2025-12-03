@@ -1,0 +1,18 @@
+--- ./000_base/flow_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:28.791739606 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/flow_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:09:59.737867401 +0300
+@@ -1,6 +1,12 @@
+ {
+ 	"type": "minecraft:smithing_trim",
+-	"addition": "#minecraft:trim_materials",
+-	"base": "#minecraft:trimmable_armor",
+-	"template": "minecraft:flow_armor_trim_smithing_template"
++	"addition": {
++		"tag": "minecraft:trim_materials"
++	},
++	"base": {
++		"tag": "minecraft:trimmable_armor"
++	},
++	"template": {
++		"item": "minecraft:flow_armor_trim_smithing_template"
++	}
+ }

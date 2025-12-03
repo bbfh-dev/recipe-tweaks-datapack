@@ -1,0 +1,17 @@
+--- ./000_base/golden_hoe.json	2025-12-03 19:08:28.851738354 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/golden_hoe.json	2025-12-03 19:09:59.843865245 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:gold_tool_materials"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"item": "minecraft:gold_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"XX",

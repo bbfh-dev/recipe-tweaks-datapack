@@ -1,0 +1,21 @@
+--- ./000_base/activator_rail.json	2025-12-03 19:08:27.174773332 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/activator_rail.json	2025-12-03 19:09:56.904925027 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:redstone_torch",
+-		"S": "minecraft:stick",
+-		"X": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:redstone_torch"
++		},
++		"S": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"XSX",

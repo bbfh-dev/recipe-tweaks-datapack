@@ -1,0 +1,13 @@
+--- ./000_base/white_dye.json	2025-12-03 19:08:31.541682285 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/white_dye.json	2025-12-03 19:10:04.411772417 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "white_dye",
+ 	"ingredients": [
+-		"minecraft:bone_meal"
++		{
++			"item": "minecraft:bone_meal"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

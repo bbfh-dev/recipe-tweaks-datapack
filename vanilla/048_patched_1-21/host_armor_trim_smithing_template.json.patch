@@ -1,0 +1,21 @@
+--- ./000_base/host_armor_trim_smithing_template.json	2025-12-03 19:08:29.040734413 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/host_armor_trim_smithing_template.json	2025-12-03 19:10:00.179858414 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:diamond",
+-		"C": "minecraft:terracotta",
+-		"S": "minecraft:host_armor_trim_smithing_template"
++		"#": {
++			"item": "minecraft:diamond"
++		},
++		"C": {
++			"item": "minecraft:terracotta"
++		},
++		"S": {
++			"item": "minecraft:host_armor_trim_smithing_template"
++		}
+ 	},
+ 	"pattern": [
+ 		"#S#",

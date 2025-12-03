@@ -1,0 +1,18 @@
+--- ./000_base/vex_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:31.142690599 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/vex_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:10:03.660787671 +0300
+@@ -1,6 +1,12 @@
+ {
+ 	"type": "minecraft:smithing_trim",
+-	"addition": "#minecraft:trim_materials",
+-	"base": "#minecraft:trimmable_armor",
+-	"template": "minecraft:vex_armor_trim_smithing_template"
++	"addition": {
++		"tag": "minecraft:trim_materials"
++	},
++	"base": {
++		"tag": "minecraft:trimmable_armor"
++	},
++	"template": {
++		"item": "minecraft:vex_armor_trim_smithing_template"
++	}
+ }

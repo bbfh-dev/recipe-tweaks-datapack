@@ -1,0 +1,17 @@
+--- ./000_base/calibrated_sculk_sensor.json	2025-12-03 19:08:27.614764154 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/calibrated_sculk_sensor.json	2025-12-03 19:09:57.672909401 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:amethyst_shard",
+-		"X": "minecraft:sculk_sensor"
++		"#": {
++			"item": "minecraft:amethyst_shard"
++		},
++		"X": {
++			"item": "minecraft:sculk_sensor"
++		}
+ 	},
+ 	"pattern": [
+ 		" # ",

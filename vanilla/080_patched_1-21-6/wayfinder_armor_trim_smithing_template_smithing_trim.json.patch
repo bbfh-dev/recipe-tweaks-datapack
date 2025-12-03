@@ -1,0 +1,9 @@
+--- ./000_base/wayfinder_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:31.471683744 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/wayfinder_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:12:27.903906622 +0300
+@@ -2,5 +2,6 @@
+ 	"type": "minecraft:smithing_trim",
+ 	"addition": "#minecraft:trim_materials",
+ 	"base": "#minecraft:trimmable_armor",
++	"pattern": "minecraft:wayfinder",
+ 	"template": "minecraft:wayfinder_armor_trim_smithing_template"
+ }

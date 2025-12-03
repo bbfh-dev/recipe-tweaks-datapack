@@ -1,0 +1,12 @@
+--- ./000_base/polished_tuff_wall_from_polished_tuff_stonecutting.json	2025-12-03 19:08:30.228709647 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_tuff_wall_from_polished_tuff_stonecutting.json	2025-12-03 19:10:02.185817639 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:polished_tuff",
++	"ingredient": {
++		"item": "minecraft:polished_tuff"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:polished_tuff_wall"

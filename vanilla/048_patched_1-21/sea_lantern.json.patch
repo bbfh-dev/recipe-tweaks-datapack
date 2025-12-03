@@ -1,0 +1,17 @@
+--- ./000_base/sea_lantern.json	2025-12-03 19:08:30.637701123 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/sea_lantern.json	2025-12-03 19:10:02.844804249 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"C": "minecraft:prismarine_crystals",
+-		"S": "minecraft:prismarine_shard"
++		"C": {
++			"item": "minecraft:prismarine_crystals"
++		},
++		"S": {
++			"item": "minecraft:prismarine_shard"
++		}
+ 	},
+ 	"pattern": [
+ 		"SCS",

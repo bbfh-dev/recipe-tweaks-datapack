@@ -1,0 +1,17 @@
+--- ./000_base/blue_banner.json	2025-12-03 19:08:27.445767679 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/blue_banner.json	2025-12-03 19:09:57.362915708 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "banner",
+ 	"key": {
+-		"#": "minecraft:blue_wool",
+-		"|": "minecraft:stick"
++		"#": {
++			"item": "minecraft:blue_wool"
++		},
++		"|": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

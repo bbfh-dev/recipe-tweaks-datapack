@@ -1,0 +1,13 @@
+--- ./000_base/composter.json	2025-12-03 19:08:27.901758167 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/composter.json	2025-12-03 19:09:58.124900206 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:wooden_slabs"
++		"#": {
++			"tag": "minecraft:wooden_slabs"
++		}
+ 	},
+ 	"pattern": [
+ 		"# #",

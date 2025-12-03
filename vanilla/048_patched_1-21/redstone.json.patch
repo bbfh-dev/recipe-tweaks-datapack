@@ -1,0 +1,13 @@
+--- ./000_base/redstone.json	2025-12-03 19:08:30.549702957 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/redstone.json	2025-12-03 19:10:02.728806606 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "redstone",
+ 	"ingredients": [
+-		"minecraft:redstone_block"
++		{
++			"item": "minecraft:redstone_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

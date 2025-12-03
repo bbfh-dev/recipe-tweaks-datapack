@@ -1,0 +1,13 @@
+--- ./000_base/raw_gold.json	2025-12-03 19:08:30.422705604 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/raw_gold.json	2025-12-03 19:10:02.529810649 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:raw_gold_block"
++		{
++			"item": "minecraft:raw_gold_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

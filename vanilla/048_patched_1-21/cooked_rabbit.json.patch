@@ -1,0 +1,13 @@
+--- ./000_base/cooked_rabbit.json	2025-12-03 19:08:27.966756811 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cooked_rabbit.json	2025-12-03 19:09:58.233897989 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "food",
+ 	"cookingtime": 200,
+ 	"experience": 0.35,
+-	"ingredient": "minecraft:rabbit",
++	"ingredient": {
++		"item": "minecraft:rabbit"
++	},
+ 	"result": {
+ 		"id": "minecraft:cooked_rabbit"
+ 	}

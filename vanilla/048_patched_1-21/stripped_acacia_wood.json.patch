@@ -1,0 +1,13 @@
+--- ./000_base/stripped_acacia_wood.json	2025-12-03 19:08:30.934694933 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stripped_acacia_wood.json	2025-12-03 19:10:03.376793441 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:stripped_acacia_log"
++		"#": {
++			"item": "minecraft:stripped_acacia_log"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

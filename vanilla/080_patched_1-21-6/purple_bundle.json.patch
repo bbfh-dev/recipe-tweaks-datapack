@@ -1,0 +1,11 @@
+--- ./000_base/purple_bundle.json	2025-12-03 19:08:30.298708188 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/purple_bundle.json	2025-12-03 19:12:25.645951032 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "bundle_dye",
+ 	"input": "#minecraft:bundles",
+ 	"material": "minecraft:purple_dye",
+-	"result": "minecraft:purple_bundle"
++	"result": {
++		"id": "minecraft:purple_bundle"
++	}
+ }

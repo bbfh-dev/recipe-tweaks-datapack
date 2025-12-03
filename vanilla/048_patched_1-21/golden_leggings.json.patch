@@ -1,0 +1,13 @@
+--- ./000_base/golden_leggings.json	2025-12-03 19:08:28.854738292 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/golden_leggings.json	2025-12-03 19:09:59.849865123 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"X": "minecraft:gold_ingot"
++		"X": {
++			"item": "minecraft:gold_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"XXX",

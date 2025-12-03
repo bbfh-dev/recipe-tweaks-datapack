@@ -1,0 +1,17 @@
+--- ./000_base/birch_sign.json	2025-12-03 19:08:27.352769619 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/birch_sign.json	2025-12-03 19:09:57.182919371 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "wooden_sign",
+ 	"key": {
+-		"#": "minecraft:birch_planks",
+-		"X": "minecraft:stick"
++		"#": {
++			"item": "minecraft:birch_planks"
++		},
++		"X": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

@@ -1,0 +1,13 @@
+--- ./000_base/oak_boat.json	2025-12-03 19:08:29.696720737 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oak_boat.json	2025-12-03 19:10:01.352834569 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "boat",
+ 	"key": {
+-		"#": "minecraft:oak_planks"
++		"#": {
++			"item": "minecraft:oak_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"# #",

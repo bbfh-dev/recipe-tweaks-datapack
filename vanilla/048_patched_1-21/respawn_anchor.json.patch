@@ -1,0 +1,17 @@
+--- ./000_base/respawn_anchor.json	2025-12-03 19:08:30.601701873 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/respawn_anchor.json	2025-12-03 19:10:02.779805569 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"G": "minecraft:glowstone",
+-		"O": "minecraft:crying_obsidian"
++		"G": {
++			"item": "minecraft:glowstone"
++		},
++		"O": {
++			"item": "minecraft:crying_obsidian"
++		}
+ 	},
+ 	"pattern": [
+ 		"OOO",

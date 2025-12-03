@@ -1,0 +1,17 @@
+--- ./000_base/fishing_rod.json	2025-12-03 19:08:28.779739856 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/fishing_rod.json	2025-12-03 19:09:59.713867889 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "minecraft:string"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"item": "minecraft:string"
++		}
+ 	},
+ 	"pattern": [
+ 		"  #",

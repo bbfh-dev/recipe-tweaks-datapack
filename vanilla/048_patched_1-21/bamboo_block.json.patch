@@ -1,0 +1,45 @@
+--- ./000_base/bamboo_block.json	2025-12-03 19:08:27.235772060 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/bamboo_block.json	2025-12-03 19:09:57.001923053 +0300
+@@ -2,15 +2,33 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:bamboo",
+-		"minecraft:bamboo",
+-		"minecraft:bamboo",
+-		"minecraft:bamboo",
+-		"minecraft:bamboo",
+-		"minecraft:bamboo",
+-		"minecraft:bamboo",
+-		"minecraft:bamboo",
+-		"minecraft:bamboo"
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		},
++		{
++			"item": "minecraft:bamboo"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,21 @@
+--- ./000_base/observer.json	2025-12-03 19:08:29.747719674 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/observer.json	2025-12-03 19:10:01.433832922 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:cobblestone",
+-		"Q": "minecraft:quartz",
+-		"R": "minecraft:redstone"
++		"#": {
++			"item": "minecraft:cobblestone"
++		},
++		"Q": {
++			"item": "minecraft:quartz"
++		},
++		"R": {
++			"item": "minecraft:redstone"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

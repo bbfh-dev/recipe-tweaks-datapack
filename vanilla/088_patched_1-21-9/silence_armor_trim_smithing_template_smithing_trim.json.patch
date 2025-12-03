@@ -1,0 +1,9 @@
+--- ./000_base/silence_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:30.671700414 +0300
++++ /tmp/tmp.NG75q41QuP/data/minecraft/recipe/silence_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:13:05.591168247 +0300
+@@ -2,5 +2,6 @@
+ 	"type": "minecraft:smithing_trim",
+ 	"addition": "#minecraft:trim_materials",
+ 	"base": "#minecraft:trimmable_armor",
++	"pattern": "minecraft:silence",
+ 	"template": "minecraft:silence_armor_trim_smithing_template"
+ }

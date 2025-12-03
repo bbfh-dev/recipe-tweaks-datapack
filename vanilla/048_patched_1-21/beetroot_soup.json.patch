@@ -1,0 +1,37 @@
+--- ./000_base/beetroot_soup.json	2025-12-03 19:08:27.316770370 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/beetroot_soup.json	2025-12-03 19:09:57.124920551 +0300
+@@ -2,13 +2,27 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:bowl",
+-		"minecraft:beetroot",
+-		"minecraft:beetroot",
+-		"minecraft:beetroot",
+-		"minecraft:beetroot",
+-		"minecraft:beetroot",
+-		"minecraft:beetroot"
++		{
++			"item": "minecraft:bowl"
++		},
++		{
++			"item": "minecraft:beetroot"
++		},
++		{
++			"item": "minecraft:beetroot"
++		},
++		{
++			"item": "minecraft:beetroot"
++		},
++		{
++			"item": "minecraft:beetroot"
++		},
++		{
++			"item": "minecraft:beetroot"
++		},
++		{
++			"item": "minecraft:beetroot"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

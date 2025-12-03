@@ -1,0 +1,12 @@
+--- ./000_base/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting.json	2025-12-03 19:08:29.531724177 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting.json	2025-12-03 19:10:01.053840646 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:mossy_cobblestone",
++	"ingredient": {
++		"item": "minecraft:mossy_cobblestone"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:mossy_cobblestone_slab"

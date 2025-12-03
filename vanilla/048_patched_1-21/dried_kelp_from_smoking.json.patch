@@ -1,0 +1,13 @@
+--- ./000_base/dried_kelp_from_smoking.json	2025-12-03 19:08:28.464746425 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dried_kelp_from_smoking.json	2025-12-03 19:09:59.111880130 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "food",
+ 	"cookingtime": 100,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:kelp",
++	"ingredient": {
++		"item": "minecraft:kelp"
++	},
+ 	"result": {
+ 		"id": "minecraft:dried_kelp"
+ 	}

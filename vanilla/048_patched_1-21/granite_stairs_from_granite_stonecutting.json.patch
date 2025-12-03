@@ -1,0 +1,12 @@
+--- ./000_base/granite_stairs_from_granite_stonecutting.json	2025-12-03 19:08:28.919736937 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/granite_stairs_from_granite_stonecutting.json	2025-12-03 19:09:59.966862744 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:granite",
++	"ingredient": {
++		"item": "minecraft:granite"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:granite_stairs"

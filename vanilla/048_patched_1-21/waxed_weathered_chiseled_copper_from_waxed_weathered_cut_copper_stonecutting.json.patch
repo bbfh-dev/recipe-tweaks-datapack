@@ -1,0 +1,12 @@
+--- ./000_base/waxed_weathered_chiseled_copper_from_waxed_weathered_cut_copper_stonecutting.json	2025-12-03 19:08:31.405685119 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_weathered_chiseled_copper_from_waxed_weathered_cut_copper_stonecutting.json	2025-12-03 19:10:04.155777617 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:waxed_weathered_cut_copper",
++	"ingredient": {
++		"item": "minecraft:waxed_weathered_cut_copper"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:waxed_weathered_chiseled_copper"

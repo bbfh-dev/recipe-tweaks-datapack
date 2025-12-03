@@ -1,0 +1,13 @@
+--- ./000_base/oak_planks.json	2025-12-03 19:08:29.724720153 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/oak_planks.json	2025-12-03 19:10:01.390833796 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "planks",
+ 	"ingredients": [
+-		"#minecraft:oak_logs"
++		{
++			"tag": "minecraft:oak_logs"
++		}
+ 	],
+ 	"result": {
+ 		"count": 4,

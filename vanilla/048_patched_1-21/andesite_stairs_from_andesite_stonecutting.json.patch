@@ -1,0 +1,12 @@
+--- ./000_base/andesite_stairs_from_andesite_stonecutting.json	2025-12-03 19:08:27.193772936 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/andesite_stairs_from_andesite_stonecutting.json	2025-12-03 19:09:56.934924417 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:andesite",
++	"ingredient": {
++		"item": "minecraft:andesite"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:andesite_stairs"

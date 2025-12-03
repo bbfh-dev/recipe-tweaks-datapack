@@ -1,0 +1,13 @@
+--- ./000_base/magenta_carpet.json	2025-12-03 19:08:29.391727095 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/magenta_carpet.json	2025-12-03 19:10:00.827845240 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "carpet",
+ 	"key": {
+-		"#": "minecraft:magenta_wool"
++		"#": {
++			"item": "minecraft:magenta_wool"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

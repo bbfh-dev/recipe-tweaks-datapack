@@ -1,0 +1,12 @@
+--- ./000_base/polished_blackstone_brick_wall_from_blackstone_stonecutting.json	2025-12-03 19:08:30.047713420 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_blackstone_brick_wall_from_blackstone_stonecutting.json	2025-12-03 19:10:01.869824061 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:blackstone",
++	"ingredient": {
++		"item": "minecraft:blackstone"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:polished_blackstone_brick_wall"

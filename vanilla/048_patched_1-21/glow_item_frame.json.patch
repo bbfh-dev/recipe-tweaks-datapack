@@ -1,0 +1,17 @@
+--- ./000_base/glow_item_frame.json	2025-12-03 19:08:28.820739001 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/glow_item_frame.json	2025-12-03 19:09:59.789866343 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:item_frame",
+-		"minecraft:glow_ink_sac"
++		{
++			"item": "minecraft:item_frame"
++		},
++		{
++			"item": "minecraft:glow_ink_sac"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

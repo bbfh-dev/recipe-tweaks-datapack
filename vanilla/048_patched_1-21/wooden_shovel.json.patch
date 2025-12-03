@@ -1,0 +1,17 @@
+--- ./000_base/wooden_shovel.json	2025-12-03 19:08:31.588681306 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/wooden_shovel.json	2025-12-03 19:10:04.491770793 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:wooden_tool_materials"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

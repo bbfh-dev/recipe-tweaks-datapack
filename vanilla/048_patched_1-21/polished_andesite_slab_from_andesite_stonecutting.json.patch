@@ -1,0 +1,12 @@
+--- ./000_base/polished_andesite_slab_from_andesite_stonecutting.json	2025-12-03 19:08:29.983714754 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/polished_andesite_slab_from_andesite_stonecutting.json	2025-12-03 19:10:01.756826357 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:andesite",
++	"ingredient": {
++		"item": "minecraft:andesite"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:polished_andesite_slab"

@@ -1,0 +1,17 @@
+--- ./000_base/orange_stained_glass.json	2025-12-03 19:08:29.790718777 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/orange_stained_glass.json	2025-12-03 19:10:01.497831622 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "stained_glass",
+ 	"key": {
+-		"#": "minecraft:glass",
+-		"X": "minecraft:orange_dye"
++		"#": {
++			"item": "minecraft:glass"
++		},
++		"X": {
++			"item": "minecraft:orange_dye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

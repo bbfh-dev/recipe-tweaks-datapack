@@ -1,0 +1,17 @@
+--- ./000_base/ender_eye.json	2025-12-03 19:08:28.665742233 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/ender_eye.json	2025-12-03 19:09:59.494872342 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:ender_pearl",
+-		"minecraft:blaze_powder"
++		{
++			"item": "minecraft:ender_pearl"
++		},
++		{
++			"item": "minecraft:blaze_powder"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,22 @@
+--- ./000_base/netherite_hoe_smithing.json	2025-12-03 19:08:29.653721634 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/netherite_hoe_smithing.json	2025-12-03 19:10:01.285835930 +0300
+@@ -1,10 +1,16 @@
+ {
+ 	"type": "minecraft:smithing_transform",
+-	"addition": "#minecraft:netherite_tool_materials",
+-	"base": "minecraft:diamond_hoe",
++	"addition": {
++		"item": "minecraft:netherite_ingot"
++	},
++	"base": {
++		"item": "minecraft:diamond_hoe"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:netherite_hoe"
+ 	},
+-	"template": "minecraft:netherite_upgrade_smithing_template"
++	"template": {
++		"item": "minecraft:netherite_upgrade_smithing_template"
++	}
+ }

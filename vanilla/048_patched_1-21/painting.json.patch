@@ -1,0 +1,17 @@
+--- ./000_base/painting.json	2025-12-03 19:08:29.859717339 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/painting.json	2025-12-03 19:10:01.615829223 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:wool"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"tag": "minecraft:wool"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

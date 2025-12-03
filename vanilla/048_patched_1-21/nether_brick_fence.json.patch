@@ -1,0 +1,17 @@
+--- ./000_base/nether_brick_fence.json	2025-12-03 19:08:29.610722530 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/nether_brick_fence.json	2025-12-03 19:10:01.200837658 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:nether_brick",
+-		"W": "minecraft:nether_bricks"
++		"#": {
++			"item": "minecraft:nether_brick"
++		},
++		"W": {
++			"item": "minecraft:nether_bricks"
++		}
+ 	},
+ 	"pattern": [
+ 		"W#W",

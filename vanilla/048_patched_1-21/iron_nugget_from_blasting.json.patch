@@ -1,0 +1,65 @@
+--- ./000_base/iron_nugget_from_blasting.json	2025-12-03 19:08:29.099733183 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/iron_nugget_from_blasting.json	2025-12-03 19:10:00.296856035 +0300
+@@ -4,20 +4,48 @@
+ 	"cookingtime": 100,
+ 	"experience": 0.1,
+ 	"ingredient": [
+-		"minecraft:iron_pickaxe",
+-		"minecraft:iron_shovel",
+-		"minecraft:iron_axe",
+-		"minecraft:iron_hoe",
+-		"minecraft:iron_sword",
+-		"minecraft:iron_helmet",
+-		"minecraft:iron_chestplate",
+-		"minecraft:iron_leggings",
+-		"minecraft:iron_boots",
+-		"minecraft:iron_horse_armor",
+-		"minecraft:chainmail_helmet",
+-		"minecraft:chainmail_chestplate",
+-		"minecraft:chainmail_leggings",
+-		"minecraft:chainmail_boots"
++		{
++			"item": "minecraft:iron_pickaxe"
++		},
++		{
++			"item": "minecraft:iron_shovel"
++		},
++		{
++			"item": "minecraft:iron_axe"
++		},
++		{
++			"item": "minecraft:iron_hoe"
++		},
++		{
++			"item": "minecraft:iron_sword"
++		},
++		{
++			"item": "minecraft:iron_helmet"
++		},
++		{
++			"item": "minecraft:iron_chestplate"
++		},
++		{
++			"item": "minecraft:iron_leggings"
++		},
++		{
++			"item": "minecraft:iron_boots"
++		},
++		{
++			"item": "minecraft:iron_horse_armor"
++		},
++		{
++			"item": "minecraft:chainmail_helmet"
++		},
++		{
++			"item": "minecraft:chainmail_chestplate"
++		},
++		{
++			"item": "minecraft:chainmail_leggings"
++		},
++		{
++			"item": "minecraft:chainmail_boots"
++		}
+ 	],
+ 	"result": {
+ 		"id": "minecraft:iron_nugget"

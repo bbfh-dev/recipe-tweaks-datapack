@@ -1,0 +1,13 @@
+--- ./000_base/iron_ingot_from_iron_block.json	2025-12-03 19:08:29.081733559 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/iron_ingot_from_iron_block.json	2025-12-03 19:10:00.261856747 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "iron_ingot",
+ 	"ingredients": [
+-		"minecraft:iron_block"
++		{
++			"item": "minecraft:iron_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

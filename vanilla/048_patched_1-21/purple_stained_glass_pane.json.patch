@@ -1,0 +1,13 @@
+--- ./000_base/purple_stained_glass_pane.json	2025-12-03 19:08:30.328707563 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/purple_stained_glass_pane.json	2025-12-03 19:10:02.355814185 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "stained_glass_pane",
+ 	"key": {
+-		"#": "minecraft:purple_stained_glass"
++		"#": {
++			"item": "minecraft:purple_stained_glass"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

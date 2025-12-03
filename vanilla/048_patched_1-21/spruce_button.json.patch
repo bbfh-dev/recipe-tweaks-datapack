@@ -1,0 +1,13 @@
+--- ./000_base/spruce_button.json	2025-12-03 19:08:30.792697892 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_button.json	2025-12-03 19:10:03.138798275 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_button",
+ 	"ingredients": [
+-		"minecraft:spruce_planks"
++		{
++			"item": "minecraft:spruce_planks"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

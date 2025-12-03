@@ -1,0 +1,18 @@
+--- ./000_base/bolt_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:27.495766636 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/bolt_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:09:57.455913816 +0300
+@@ -1,6 +1,12 @@
+ {
+ 	"type": "minecraft:smithing_trim",
+-	"addition": "#minecraft:trim_materials",
+-	"base": "#minecraft:trimmable_armor",
+-	"template": "minecraft:bolt_armor_trim_smithing_template"
++	"addition": {
++		"tag": "minecraft:trim_materials"
++	},
++	"base": {
++		"tag": "minecraft:trimmable_armor"
++	},
++	"template": {
++		"item": "minecraft:bolt_armor_trim_smithing_template"
++	}
+ }

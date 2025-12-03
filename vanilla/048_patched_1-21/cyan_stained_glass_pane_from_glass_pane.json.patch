@@ -1,0 +1,17 @@
+--- ./000_base/cyan_stained_glass_pane_from_glass_pane.json	2025-12-03 19:08:28.195752035 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_stained_glass_pane_from_glass_pane.json	2025-12-03 19:09:58.615890219 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "stained_glass_pane",
+ 	"key": {
+-		"#": "minecraft:glass_pane",
+-		"$": "minecraft:cyan_dye"
++		"#": {
++			"item": "minecraft:glass_pane"
++		},
++		"$": {
++			"item": "minecraft:cyan_dye"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

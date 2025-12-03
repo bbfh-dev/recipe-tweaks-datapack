@@ -1,0 +1,17 @@
+--- ./000_base/cyan_banner.json	2025-12-03 19:08:28.160752765 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cyan_banner.json	2025-12-03 19:09:58.560891337 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "banner",
+ 	"key": {
+-		"#": "minecraft:cyan_wool",
+-		"|": "minecraft:stick"
++		"#": {
++			"item": "minecraft:cyan_wool"
++		},
++		"|": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

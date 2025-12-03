@@ -1,0 +1,11 @@
+--- ./000_base/pumpkin_pie.json	2025-12-03 19:08:30.283708501 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/pumpkin_pie.json	2025-12-03 19:12:25.622951485 +0300
+@@ -4,7 +4,7 @@
+ 	"ingredients": [
+ 		"minecraft:pumpkin",
+ 		"minecraft:sugar",
+-		"minecraft:egg"
++		"#minecraft:eggs"
+ 	],
+ 	"result": {
+ 		"count": 1,

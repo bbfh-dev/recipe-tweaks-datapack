@@ -1,0 +1,11 @@
+--- ./000_base/cake.json	2025-12-03 19:08:27.611764216 +0300
++++ /tmp/tmp.U370XMDO61/data/minecraft/recipe/cake.json	2025-12-03 19:10:53.575779945 +0300
+@@ -5,7 +5,7 @@
+ 		"A": "minecraft:milk_bucket",
+ 		"B": "minecraft:sugar",
+ 		"C": "minecraft:wheat",
+-		"E": "minecraft:egg"
++		"E": "#minecraft:eggs"
+ 	},
+ 	"pattern": [
+ 		"AAA",

@@ -1,0 +1,21 @@
+--- ./000_base/dispenser.json	2025-12-03 19:08:28.451746696 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dispenser.json	2025-12-03 19:09:59.085880659 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:cobblestone",
+-		"R": "minecraft:redstone",
+-		"X": "minecraft:bow"
++		"#": {
++			"item": "minecraft:cobblestone"
++		},
++		"R": {
++			"item": "minecraft:redstone"
++		},
++		"X": {
++			"item": "minecraft:bow"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

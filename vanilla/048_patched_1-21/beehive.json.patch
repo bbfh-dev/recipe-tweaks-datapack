@@ -1,0 +1,17 @@
+--- ./000_base/beehive.json	2025-12-03 19:08:27.313770433 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/beehive.json	2025-12-03 19:09:57.118920673 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"H": "minecraft:honeycomb",
+-		"P": "#minecraft:planks"
++		"H": {
++			"item": "minecraft:honeycomb"
++		},
++		"P": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"PPP",

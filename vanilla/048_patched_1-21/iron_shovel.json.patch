@@ -1,0 +1,17 @@
+--- ./000_base/iron_shovel.json	2025-12-03 19:08:29.112732912 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/iron_shovel.json	2025-12-03 19:10:00.321855527 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:iron_tool_materials"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

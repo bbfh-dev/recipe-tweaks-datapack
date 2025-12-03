@@ -1,0 +1,13 @@
+--- ./000_base/deepslate.json	2025-12-03 19:08:28.317749491 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/deepslate.json	2025-12-03 19:09:58.838885683 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:cobbled_deepslate",
++	"ingredient": {
++		"item": "minecraft:cobbled_deepslate"
++	},
+ 	"result": {
+ 		"id": "minecraft:deepslate"
+ 	}

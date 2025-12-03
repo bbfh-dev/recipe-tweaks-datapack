@@ -1,0 +1,17 @@
+--- ./000_base/diorite.json	2025-12-03 19:08:28.429747155 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/diorite.json	2025-12-03 19:09:59.042881534 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"C": "minecraft:cobblestone",
+-		"Q": "minecraft:quartz"
++		"C": {
++			"item": "minecraft:cobblestone"
++		},
++		"Q": {
++			"item": "minecraft:quartz"
++		}
+ 	},
+ 	"pattern": [
+ 		"CQ",

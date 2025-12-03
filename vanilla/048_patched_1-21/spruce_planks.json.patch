@@ -1,0 +1,13 @@
+--- ./000_base/spruce_planks.json	2025-12-03 19:08:30.813697455 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_planks.json	2025-12-03 19:10:03.176797503 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "planks",
+ 	"ingredients": [
+-		"#minecraft:spruce_logs"
++		{
++			"tag": "minecraft:spruce_logs"
++		}
+ 	],
+ 	"result": {
+ 		"count": 4,

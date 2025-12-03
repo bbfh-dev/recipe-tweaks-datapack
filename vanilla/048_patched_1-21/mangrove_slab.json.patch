@@ -1,0 +1,13 @@
+--- ./000_base/mangrove_slab.json	2025-12-03 19:08:29.480725240 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mangrove_slab.json	2025-12-03 19:10:00.967842394 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:mangrove_planks"
++		"#": {
++			"item": "minecraft:mangrove_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

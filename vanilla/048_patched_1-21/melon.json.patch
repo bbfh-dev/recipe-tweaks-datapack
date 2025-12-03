@@ -1,0 +1,45 @@
+--- ./000_base/melon.json	2025-12-03 19:08:29.504724740 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/melon.json	2025-12-03 19:10:01.010841520 +0300
+@@ -2,15 +2,33 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice",
+-		"minecraft:melon_slice"
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		},
++		{
++			"item": "minecraft:melon_slice"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,13 @@
+--- ./000_base/green_glazed_terracotta.json	2025-12-03 19:08:28.997735310 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/green_glazed_terracotta.json	2025-12-03 19:10:00.096860101 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:green_terracotta",
++	"ingredient": {
++		"item": "minecraft:green_terracotta"
++	},
+ 	"result": {
+ 		"id": "minecraft:green_glazed_terracotta"
+ 	}

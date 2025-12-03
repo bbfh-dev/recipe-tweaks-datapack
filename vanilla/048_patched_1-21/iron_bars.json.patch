@@ -1,0 +1,13 @@
+--- ./000_base/iron_bars.json	2025-12-03 19:08:29.049734226 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/iron_bars.json	2025-12-03 19:10:00.200857987 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

@@ -1,0 +1,12 @@
+--- ./000_base/brick_wall_from_bricks_stonecutting.json	2025-12-03 19:08:27.553765426 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/brick_wall_from_bricks_stonecutting.json	2025-12-03 19:09:57.571911456 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:bricks",
++	"ingredient": {
++		"item": "minecraft:bricks"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:brick_wall"

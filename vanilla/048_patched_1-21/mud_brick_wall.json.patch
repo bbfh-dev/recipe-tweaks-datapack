@@ -1,0 +1,13 @@
+--- ./000_base/mud_brick_wall.json	2025-12-03 19:08:29.598722780 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mud_brick_wall.json	2025-12-03 19:10:01.172838227 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:mud_bricks"
++		"#": {
++			"item": "minecraft:mud_bricks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

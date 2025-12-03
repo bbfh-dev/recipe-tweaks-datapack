@@ -1,0 +1,13 @@
+--- ./000_base/emerald_from_blasting_deepslate_emerald_ore.json	2025-12-03 19:08:28.642742713 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/emerald_from_blasting_deepslate_emerald_ore.json	2025-12-03 19:09:59.447873298 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 100,
+ 	"experience": 1.0,
+ 	"group": "emerald",
+-	"ingredient": "minecraft:deepslate_emerald_ore",
++	"ingredient": {
++		"item": "minecraft:deepslate_emerald_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:emerald"
+ 	}

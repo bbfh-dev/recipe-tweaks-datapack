@@ -1,0 +1,13 @@
+--- ./000_base/diamond_from_smelting_deepslate_diamond_ore.json	2025-12-03 19:08:28.398747802 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/diamond_from_smelting_deepslate_diamond_ore.json	2025-12-03 19:09:58.993882530 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 200,
+ 	"experience": 1.0,
+ 	"group": "diamond",
+-	"ingredient": "minecraft:deepslate_diamond_ore",
++	"ingredient": {
++		"item": "minecraft:deepslate_diamond_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:diamond"
+ 	}

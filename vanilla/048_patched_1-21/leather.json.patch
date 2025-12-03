@@ -1,0 +1,13 @@
+--- ./000_base/leather.json	2025-12-03 19:08:29.214730786 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/leather.json	2025-12-03 19:10:00.516851563 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:rabbit_hide"
++		"#": {
++			"item": "minecraft:rabbit_hide"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

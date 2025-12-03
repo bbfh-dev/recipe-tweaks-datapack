@@ -1,0 +1,13 @@
+--- ./000_base/cracked_nether_bricks.json	2025-12-03 19:08:28.036755351 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cracked_nether_bricks.json	2025-12-03 19:09:58.350895609 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:nether_bricks",
++	"ingredient": {
++		"item": "minecraft:nether_bricks"
++	},
+ 	"result": {
+ 		"id": "minecraft:cracked_nether_bricks"
+ 	}

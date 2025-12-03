@@ -1,0 +1,12 @@
+--- ./000_base/dye_black_carpet.json	2025-12-03 19:08:28.485745987 +0300
++++ /tmp/tmp.NG75q41QuP/data/minecraft/recipe/dye_black_carpet.json	2025-12-03 19:13:01.542247321 +0300
+@@ -1,7 +1,7 @@
+ {
+ 	"type": "minecraft:crafting_shapeless",
+-	"category": "building",
+-	"group": "carpet",
++	"category": "misc",
++	"group": "carpet_dye",
+ 	"ingredients": [
+ 		"minecraft:black_dye",
+ 		[

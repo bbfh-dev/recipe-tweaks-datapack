@@ -1,0 +1,11 @@
+--- ./000_base/black_bundle.json	2025-12-03 19:08:27.375769139 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/black_bundle.json	2025-12-03 19:12:20.429053716 +0300
+@@ -4,5 +4,7 @@
+ 	"group": "bundle_dye",
+ 	"input": "#minecraft:bundles",
+ 	"material": "minecraft:black_dye",
+-	"result": "minecraft:black_bundle"
++	"result": {
++		"id": "minecraft:black_bundle"
++	}
+ }

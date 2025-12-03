@@ -1,0 +1,12 @@
+--- ./000_base/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json	2025-12-03 19:08:28.745740565 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json	2025-12-03 19:09:59.650869170 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:exposed_cut_copper",
++	"ingredient": {
++		"item": "minecraft:exposed_cut_copper"
++	},
+ 	"result": {
+ 		"count": 1,
+ 		"id": "minecraft:exposed_cut_copper_stairs"

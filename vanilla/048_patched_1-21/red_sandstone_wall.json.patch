@@ -1,0 +1,13 @@
+--- ./000_base/red_sandstone_wall.json	2025-12-03 19:08:30.517703624 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_sandstone_wall.json	2025-12-03 19:10:02.677807642 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:red_sandstone"
++		"#": {
++			"item": "minecraft:red_sandstone"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

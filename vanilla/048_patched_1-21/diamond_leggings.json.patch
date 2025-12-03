@@ -1,0 +1,13 @@
+--- ./000_base/diamond_leggings.json	2025-12-03 19:08:28.415747447 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/diamond_leggings.json	2025-12-03 19:09:59.019882001 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"X": "minecraft:diamond"
++		"X": {
++			"item": "minecraft:diamond"
++		}
+ 	},
+ 	"pattern": [
+ 		"XXX",

@@ -1,0 +1,18 @@
+--- ./000_base/eye_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:28.753740398 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/eye_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:09:59.666868845 +0300
+@@ -1,6 +1,12 @@
+ {
+ 	"type": "minecraft:smithing_trim",
+-	"addition": "#minecraft:trim_materials",
+-	"base": "#minecraft:trimmable_armor",
+-	"template": "minecraft:eye_armor_trim_smithing_template"
++	"addition": {
++		"tag": "minecraft:trim_materials"
++	},
++	"base": {
++		"tag": "minecraft:trimmable_armor"
++	},
++	"template": {
++		"item": "minecraft:eye_armor_trim_smithing_template"
++	}
+ }

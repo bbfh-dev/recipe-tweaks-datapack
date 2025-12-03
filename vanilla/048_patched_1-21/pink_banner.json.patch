@@ -1,0 +1,17 @@
+--- ./000_base/pink_banner.json	2025-12-03 19:08:29.916716150 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/pink_banner.json	2025-12-03 19:10:01.647828573 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "banner",
+ 	"key": {
+-		"#": "minecraft:pink_wool",
+-		"|": "minecraft:stick"
++		"#": {
++			"item": "minecraft:pink_wool"
++		},
++		"|": {
++			"item": "minecraft:stick"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

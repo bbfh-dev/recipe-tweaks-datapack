@@ -1,0 +1,13 @@
+--- ./000_base/bamboo_pressure_plate.json	2025-12-03 19:08:27.276771205 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/bamboo_pressure_plate.json	2025-12-03 19:09:57.065921751 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_pressure_plate",
+ 	"key": {
+-		"#": "minecraft:bamboo_planks"
++		"#": {
++			"item": "minecraft:bamboo_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

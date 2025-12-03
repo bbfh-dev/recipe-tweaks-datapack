@@ -1,0 +1,21 @@
+--- ./000_base/raiser_armor_trim_smithing_template.json	2025-12-03 19:08:30.405705958 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/raiser_armor_trim_smithing_template.json	2025-12-03 19:10:02.498811279 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "minecraft:diamond",
+-		"C": "minecraft:terracotta",
+-		"S": "minecraft:raiser_armor_trim_smithing_template"
++		"#": {
++			"item": "minecraft:diamond"
++		},
++		"C": {
++			"item": "minecraft:terracotta"
++		},
++		"S": {
++			"item": "minecraft:raiser_armor_trim_smithing_template"
++		}
+ 	},
+ 	"pattern": [
+ 		"#S#",

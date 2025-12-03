@@ -1,0 +1,13 @@
+--- ./000_base/cherry_trapdoor.json	2025-12-03 19:08:27.704762276 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cherry_trapdoor.json	2025-12-03 19:09:57.790907001 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_trapdoor",
+ 	"key": {
+-		"#": "minecraft:cherry_planks"
++		"#": {
++			"item": "minecraft:cherry_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

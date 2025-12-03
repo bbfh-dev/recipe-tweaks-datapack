@@ -1,0 +1,12 @@
+--- ./000_base/smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting.json	2025-12-03 19:08:30.715699497 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting.json	2025-12-03 19:10:02.987801343 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:smooth_red_sandstone",
++	"ingredient": {
++		"item": "minecraft:smooth_red_sandstone"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:smooth_red_sandstone_slab"

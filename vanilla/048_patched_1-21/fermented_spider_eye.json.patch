@@ -1,0 +1,21 @@
+--- ./000_base/fermented_spider_eye.json	2025-12-03 19:08:28.757740315 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/fermented_spider_eye.json	2025-12-03 19:09:59.672868722 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:spider_eye",
+-		"minecraft:brown_mushroom",
+-		"minecraft:sugar"
++		{
++			"item": "minecraft:spider_eye"
++		},
++		{
++			"item": "minecraft:brown_mushroom"
++		},
++		{
++			"item": "minecraft:sugar"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

@@ -1,0 +1,13 @@
+--- ./000_base/heavy_weighted_pressure_plate.json	2025-12-03 19:08:29.022734789 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/heavy_weighted_pressure_plate.json	2025-12-03 19:10:00.141859186 +0300
+@@ -2,7 +2,9 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:iron_ingot"
++		"#": {
++			"item": "minecraft:iron_ingot"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

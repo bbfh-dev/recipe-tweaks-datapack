@@ -1,0 +1,17 @@
+--- ./000_base/barrel.json	2025-12-03 19:08:27.302770662 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/barrel.json	2025-12-03 19:09:57.105920937 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"P": "#minecraft:planks",
+-		"S": "#minecraft:wooden_slabs"
++		"P": {
++			"tag": "minecraft:planks"
++		},
++		"S": {
++			"tag": "minecraft:wooden_slabs"
++		}
+ 	},
+ 	"pattern": [
+ 		"PSP",

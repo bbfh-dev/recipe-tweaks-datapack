@@ -1,0 +1,9 @@
+--- ./000_base/dune_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:08:28.480746092 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/dune_armor_trim_smithing_template_smithing_trim.json	2025-12-03 19:12:22.201018826 +0300
+@@ -2,5 +2,6 @@
+ 	"type": "minecraft:smithing_trim",
+ 	"addition": "#minecraft:trim_materials",
+ 	"base": "#minecraft:trimmable_armor",
++	"pattern": "minecraft:dune",
+ 	"template": "minecraft:dune_armor_trim_smithing_template"
+ }

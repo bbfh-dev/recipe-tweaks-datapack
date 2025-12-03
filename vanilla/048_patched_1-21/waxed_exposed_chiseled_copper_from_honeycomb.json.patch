@@ -1,0 +1,17 @@
+--- ./000_base/waxed_exposed_chiseled_copper_from_honeycomb.json	2025-12-03 19:08:31.260688140 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_exposed_chiseled_copper_from_honeycomb.json	2025-12-03 19:10:03.885783101 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "waxed_exposed_chiseled_copper",
+ 	"ingredients": [
+-		"minecraft:exposed_chiseled_copper",
+-		"minecraft:honeycomb"
++		{
++			"item": "minecraft:exposed_chiseled_copper"
++		},
++		{
++			"item": "minecraft:honeycomb"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

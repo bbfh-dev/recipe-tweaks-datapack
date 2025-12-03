@@ -1,0 +1,26 @@
+--- ./000_base/fire_charge.json	2025-12-03 19:08:28.763740190 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/fire_charge.json	2025-12-03 19:09:59.681868540 +0300
+@@ -2,11 +2,19 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:gunpowder",
+-		"minecraft:blaze_powder",
++		{
++			"item": "minecraft:gunpowder"
++		},
++		{
++			"item": "minecraft:blaze_powder"
++		},
+ 		[
+-			"minecraft:coal",
+-			"minecraft:charcoal"
++			{
++				"item": "minecraft:coal"
++			},
++			{
++				"item": "minecraft:charcoal"
++			}
+ 		]
+ 	],
+ 	"result": {

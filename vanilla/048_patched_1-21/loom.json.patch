@@ -1,0 +1,17 @@
+--- ./000_base/loom.json	2025-12-03 19:08:29.372727492 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/loom.json	2025-12-03 19:10:00.795845890 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "misc",
+ 	"key": {
+-		"#": "#minecraft:planks",
+-		"@": "minecraft:string"
++		"#": {
++			"tag": "minecraft:planks"
++		},
++		"@": {
++			"item": "minecraft:string"
++		}
+ 	},
+ 	"pattern": [
+ 		"@@",

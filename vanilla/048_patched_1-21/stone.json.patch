@@ -1,0 +1,13 @@
+--- ./000_base/stone.json	2025-12-03 19:08:30.905695537 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stone.json	2025-12-03 19:10:03.326794456 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:cobblestone",
++	"ingredient": {
++		"item": "minecraft:cobblestone"
++	},
+ 	"result": {
+ 		"id": "minecraft:stone"
+ 	}

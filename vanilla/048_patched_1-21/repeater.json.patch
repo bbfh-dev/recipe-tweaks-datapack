@@ -1,0 +1,21 @@
+--- ./000_base/repeater.json	2025-12-03 19:08:30.566702603 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/repeater.json	2025-12-03 19:10:02.757806016 +0300
+@@ -2,9 +2,15 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:redstone_torch",
+-		"I": "minecraft:stone",
+-		"X": "minecraft:redstone"
++		"#": {
++			"item": "minecraft:redstone_torch"
++		},
++		"I": {
++			"item": "minecraft:stone"
++		},
++		"X": {
++			"item": "minecraft:redstone"
++		}
+ 	},
+ 	"pattern": [
+ 		"#X#",

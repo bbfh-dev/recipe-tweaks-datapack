@@ -1,0 +1,13 @@
+--- ./000_base/jungle_door.json	2025-12-03 19:08:29.140732328 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/jungle_door.json	2025-12-03 19:10:00.373854470 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_door",
+ 	"key": {
+-		"#": "minecraft:jungle_planks"
++		"#": {
++			"item": "minecraft:jungle_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

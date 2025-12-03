@@ -1,0 +1,17 @@
+--- ./000_base/skull_banner_pattern.json	2025-12-03 19:08:30.674700352 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/skull_banner_pattern.json	2025-12-03 19:10:02.915802806 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:paper",
+-		"minecraft:wither_skeleton_skull"
++		{
++			"item": "minecraft:paper"
++		},
++		{
++			"item": "minecraft:wither_skeleton_skull"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

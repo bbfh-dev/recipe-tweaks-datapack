@@ -1,0 +1,17 @@
+--- ./000_base/packed_mud.json	2025-12-03 19:08:29.856717401 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/packed_mud.json	2025-12-03 19:10:01.609829345 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:mud",
+-		"minecraft:wheat"
++		{
++			"item": "minecraft:mud"
++		},
++		{
++			"item": "minecraft:wheat"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

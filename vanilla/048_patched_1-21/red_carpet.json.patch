@@ -1,0 +1,13 @@
+--- ./000_base/red_carpet.json	2025-12-03 19:08:30.447705083 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_carpet.json	2025-12-03 19:10:02.569809836 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "carpet",
+ 	"key": {
+-		"#": "minecraft:red_wool"
++		"#": {
++			"item": "minecraft:red_wool"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

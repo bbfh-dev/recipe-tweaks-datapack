@@ -1,0 +1,12 @@
+--- ./000_base/dye_magenta_carpet.json	2025-12-03 19:08:28.574744131 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/dye_magenta_carpet.json	2025-12-03 19:12:22.354015815 +0300
+@@ -1,7 +1,7 @@
+ {
+ 	"type": "minecraft:crafting_shapeless",
+-	"category": "building",
+-	"group": "carpet",
++	"category": "misc",
++	"group": "carpet_dye",
+ 	"ingredients": [
+ 		"minecraft:magenta_dye",
+ 		[

@@ -1,0 +1,45 @@
+--- ./000_base/magenta_concrete_powder.json	2025-12-03 19:08:29.395727012 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/magenta_concrete_powder.json	2025-12-03 19:10:00.832845138 +0300
+@@ -3,15 +3,33 @@
+ 	"category": "building",
+ 	"group": "concrete_powder",
+ 	"ingredients": [
+-		"minecraft:magenta_dye",
+-		"minecraft:sand",
+-		"minecraft:sand",
+-		"minecraft:sand",
+-		"minecraft:sand",
+-		"minecraft:gravel",
+-		"minecraft:gravel",
+-		"minecraft:gravel",
+-		"minecraft:gravel"
++		{
++			"item": "minecraft:magenta_dye"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:sand"
++		},
++		{
++			"item": "minecraft:gravel"
++		},
++		{
++			"item": "minecraft:gravel"
++		},
++		{
++			"item": "minecraft:gravel"
++		},
++		{
++			"item": "minecraft:gravel"
++		}
+ 	],
+ 	"result": {
+ 		"count": 8,

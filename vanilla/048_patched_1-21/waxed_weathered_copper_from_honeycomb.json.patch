@@ -1,0 +1,17 @@
+--- ./000_base/waxed_weathered_copper_from_honeycomb.json	2025-12-03 19:08:31.421684785 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/waxed_weathered_copper_from_honeycomb.json	2025-12-03 19:10:04.183777048 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"group": "waxed_weathered_copper",
+ 	"ingredients": [
+-		"minecraft:weathered_copper",
+-		"minecraft:honeycomb"
++		{
++			"item": "minecraft:weathered_copper"
++		},
++		{
++			"item": "minecraft:honeycomb"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

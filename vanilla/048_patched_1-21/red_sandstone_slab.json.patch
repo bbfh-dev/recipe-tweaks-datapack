@@ -1,0 +1,17 @@
+--- ./000_base/red_sandstone_slab.json	2025-12-03 19:08:30.504703895 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_sandstone_slab.json	2025-12-03 19:10:02.655808089 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "building",
+ 	"key": {
+ 		"#": [
+-			"minecraft:red_sandstone",
+-			"minecraft:chiseled_red_sandstone"
++			{
++				"item": "minecraft:red_sandstone"
++			},
++			{
++				"item": "minecraft:chiseled_red_sandstone"
++			}
+ 		]
+ 	},
+ 	"pattern": [

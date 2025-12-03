@@ -1,0 +1,13 @@
+--- ./000_base/stick.json	2025-12-03 19:08:30.846696767 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/stick.json	2025-12-03 19:10:03.225796508 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "sticks",
+ 	"key": {
+-		"#": "#minecraft:planks"
++		"#": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"#",

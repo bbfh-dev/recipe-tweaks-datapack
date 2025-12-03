@@ -1,0 +1,17 @@
+--- ./000_base/note_block.json	2025-12-03 19:08:29.692720820 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/note_block.json	2025-12-03 19:10:01.347834670 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "#minecraft:planks",
+-		"X": "minecraft:redstone"
++		"#": {
++			"tag": "minecraft:planks"
++		},
++		"X": {
++			"item": "minecraft:redstone"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

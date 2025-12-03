@@ -1,0 +1,13 @@
+--- ./000_base/coal_from_smelting_deepslate_coal_ore.json	2025-12-03 19:08:27.834759564 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/coal_from_smelting_deepslate_coal_ore.json	2025-12-03 19:09:58.007902586 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 200,
+ 	"experience": 0.1,
+ 	"group": "coal",
+-	"ingredient": "minecraft:deepslate_coal_ore",
++	"ingredient": {
++		"item": "minecraft:deepslate_coal_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:coal"
+ 	}

@@ -1,0 +1,17 @@
+--- ./000_base/crimson_hanging_sign.json	2025-12-03 19:08:28.076754516 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crimson_hanging_sign.json	2025-12-03 19:09:58.411894368 +0300
+@@ -3,8 +3,12 @@
+ 	"category": "misc",
+ 	"group": "hanging_sign",
+ 	"key": {
+-		"#": "minecraft:stripped_crimson_stem",
+-		"X": "minecraft:chain"
++		"#": {
++			"item": "minecraft:stripped_crimson_stem"
++		},
++		"X": {
++			"item": "minecraft:chain"
++		}
+ 	},
+ 	"pattern": [
+ 		"X X",

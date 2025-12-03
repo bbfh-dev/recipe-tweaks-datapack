@@ -1,0 +1,17 @@
+--- ./000_base/tinted_glass.json	2025-12-03 19:08:31.046692599 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/tinted_glass.json	2025-12-03 19:10:03.490791125 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "building",
+ 	"key": {
+-		"G": "minecraft:glass",
+-		"S": "minecraft:amethyst_shard"
++		"G": {
++			"item": "minecraft:glass"
++		},
++		"S": {
++			"item": "minecraft:amethyst_shard"
++		}
+ 	},
+ 	"pattern": [
+ 		" S ",

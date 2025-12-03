@@ -1,0 +1,13 @@
+--- ./000_base/cooked_salmon.json	2025-12-03 19:08:27.979756540 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cooked_salmon.json	2025-12-03 19:09:58.251897623 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "food",
+ 	"cookingtime": 200,
+ 	"experience": 0.35,
+-	"ingredient": "minecraft:salmon",
++	"ingredient": {
++		"item": "minecraft:salmon"
++	},
+ 	"result": {
+ 		"id": "minecraft:cooked_salmon"
+ 	}

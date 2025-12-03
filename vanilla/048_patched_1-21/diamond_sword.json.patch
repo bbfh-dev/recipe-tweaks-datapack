@@ -1,0 +1,17 @@
+--- ./000_base/diamond_sword.json	2025-12-03 19:08:28.425747239 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/diamond_sword.json	2025-12-03 19:09:59.036881656 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:diamond_tool_materials"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"item": "minecraft:diamond"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

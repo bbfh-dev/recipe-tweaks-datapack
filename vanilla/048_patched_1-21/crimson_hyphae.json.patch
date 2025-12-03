@@ -1,0 +1,13 @@
+--- ./000_base/crimson_hyphae.json	2025-12-03 19:08:28.079754454 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/crimson_hyphae.json	2025-12-03 19:09:58.417894246 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "bark",
+ 	"key": {
+-		"#": "minecraft:crimson_stem"
++		"#": {
++			"item": "minecraft:crimson_stem"
++		}
+ 	},
+ 	"pattern": [
+ 		"##",

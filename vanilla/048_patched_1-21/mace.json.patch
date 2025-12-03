@@ -1,0 +1,17 @@
+--- ./000_base/mace.json	2025-12-03 19:08:29.376727408 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/mace.json	2025-12-03 19:10:00.801845769 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:heavy_core",
+-		"I": "minecraft:breeze_rod"
++		"#": {
++			"item": "minecraft:heavy_core"
++		},
++		"I": {
++			"item": "minecraft:breeze_rod"
++		}
+ 	},
+ 	"pattern": [
+ 		" # ",

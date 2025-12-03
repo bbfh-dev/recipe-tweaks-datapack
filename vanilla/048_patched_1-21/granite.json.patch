@@ -1,0 +1,17 @@
+--- ./000_base/granite.json	2025-12-03 19:08:28.910737124 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/granite.json	2025-12-03 19:09:59.949863090 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "building",
+ 	"ingredients": [
+-		"minecraft:diorite",
+-		"minecraft:quartz"
++		{
++			"item": "minecraft:diorite"
++		},
++		{
++			"item": "minecraft:quartz"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

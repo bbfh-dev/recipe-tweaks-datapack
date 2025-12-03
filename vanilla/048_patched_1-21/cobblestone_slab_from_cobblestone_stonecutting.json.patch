@@ -1,0 +1,12 @@
+--- ./000_base/cobblestone_slab_from_cobblestone_stonecutting.json	2025-12-03 19:08:27.872758772 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cobblestone_slab_from_cobblestone_stonecutting.json	2025-12-03 19:09:58.079901121 +0300
+@@ -1,6 +1,8 @@
+ {
+ 	"type": "minecraft:stonecutting",
+-	"ingredient": "minecraft:cobblestone",
++	"ingredient": {
++		"item": "minecraft:cobblestone"
++	},
+ 	"result": {
+ 		"count": 2,
+ 		"id": "minecraft:cobblestone_slab"

@@ -1,0 +1,17 @@
+--- ./000_base/wooden_sword.json	2025-12-03 19:08:31.591681244 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/wooden_sword.json	2025-12-03 19:10:04.496770691 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "equipment",
+ 	"key": {
+-		"#": "minecraft:stick",
+-		"X": "#minecraft:wooden_tool_materials"
++		"#": {
++			"item": "minecraft:stick"
++		},
++		"X": {
++			"tag": "minecraft:planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"X",

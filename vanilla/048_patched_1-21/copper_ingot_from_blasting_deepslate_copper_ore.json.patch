@@ -1,0 +1,13 @@
+--- ./000_base/copper_ingot_from_blasting_deepslate_copper_ore.json	2025-12-03 19:08:28.007755956 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/copper_ingot_from_blasting_deepslate_copper_ore.json	2025-12-03 19:09:58.294896748 +0300
+@@ -4,7 +4,9 @@
+ 	"cookingtime": 100,
+ 	"experience": 0.7,
+ 	"group": "copper_ingot",
+-	"ingredient": "minecraft:deepslate_copper_ore",
++	"ingredient": {
++		"item": "minecraft:deepslate_copper_ore"
++	},
+ 	"result": {
+ 		"id": "minecraft:copper_ingot"
+ 	}

@@ -1,0 +1,13 @@
+--- ./000_base/warped_slab.json	2025-12-03 19:08:31.181689786 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/warped_slab.json	2025-12-03 19:10:03.734786168 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:warped_planks"
++		"#": {
++			"item": "minecraft:warped_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

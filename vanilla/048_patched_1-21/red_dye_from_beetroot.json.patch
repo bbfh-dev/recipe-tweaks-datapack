@@ -1,0 +1,13 @@
+--- ./000_base/red_dye_from_beetroot.json	2025-12-03 19:08:30.453704958 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/red_dye_from_beetroot.json	2025-12-03 19:10:02.580809613 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "red_dye",
+ 	"ingredients": [
+-		"minecraft:beetroot"
++		{
++			"item": "minecraft:beetroot"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

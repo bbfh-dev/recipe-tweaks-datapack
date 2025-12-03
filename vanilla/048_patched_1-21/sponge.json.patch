@@ -1,0 +1,13 @@
+--- ./000_base/sponge.json	2025-12-03 19:08:30.786698017 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/sponge.json	2025-12-03 19:10:03.125798540 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "blocks",
+ 	"cookingtime": 200,
+ 	"experience": 0.15,
+-	"ingredient": "minecraft:wet_sponge",
++	"ingredient": {
++		"item": "minecraft:wet_sponge"
++	},
+ 	"result": {
+ 		"id": "minecraft:sponge"
+ 	}

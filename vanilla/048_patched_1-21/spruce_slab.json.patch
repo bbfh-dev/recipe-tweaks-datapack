@@ -1,0 +1,13 @@
+--- ./000_base/spruce_slab.json	2025-12-03 19:08:30.824697225 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/spruce_slab.json	2025-12-03 19:10:03.191797199 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "building",
+ 	"group": "wooden_slab",
+ 	"key": {
+-		"#": "minecraft:spruce_planks"
++		"#": {
++			"item": "minecraft:spruce_planks"
++		}
+ 	},
+ 	"pattern": [
+ 		"###"

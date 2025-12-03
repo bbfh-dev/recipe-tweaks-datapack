@@ -1,0 +1,12 @@
+--- ./000_base/dye_magenta_bed.json	2025-12-03 19:08:28.571744194 +0300
++++ /tmp/tmp.9lqJwo7bbn/data/minecraft/recipe/dye_magenta_bed.json	2025-12-03 19:12:22.349015913 +0300
+@@ -1,7 +1,7 @@
+ {
+ 	"type": "minecraft:crafting_shapeless",
+-	"category": "building",
+-	"group": "bed",
++	"category": "misc",
++	"group": "bed_dye",
+ 	"ingredients": [
+ 		"minecraft:magenta_dye",
+ 		[

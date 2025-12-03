@@ -1,0 +1,13 @@
+--- ./000_base/cherry_button.json	2025-12-03 19:08:27.665763090 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/cherry_button.json	2025-12-03 19:09:57.728908262 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "redstone",
+ 	"group": "wooden_button",
+ 	"ingredients": [
+-		"minecraft:cherry_planks"
++		{
++			"item": "minecraft:cherry_planks"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

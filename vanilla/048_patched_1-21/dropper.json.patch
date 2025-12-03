@@ -1,0 +1,17 @@
+--- ./000_base/dropper.json	2025-12-03 19:08:28.474746217 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dropper.json	2025-12-03 19:09:59.132879703 +0300
+@@ -2,8 +2,12 @@
+ 	"type": "minecraft:crafting_shaped",
+ 	"category": "redstone",
+ 	"key": {
+-		"#": "minecraft:cobblestone",
+-		"R": "minecraft:redstone"
++		"#": {
++			"item": "minecraft:cobblestone"
++		},
++		"R": {
++			"item": "minecraft:redstone"
++		}
+ 	},
+ 	"pattern": [
+ 		"###",

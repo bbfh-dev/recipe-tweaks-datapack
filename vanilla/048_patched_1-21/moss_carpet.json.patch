@@ -1,0 +1,13 @@
+--- ./000_base/moss_carpet.json	2025-12-03 19:08:29.518724448 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/moss_carpet.json	2025-12-03 19:10:01.033841052 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "carpet",
+ 	"key": {
+-		"#": "minecraft:moss_block"
++		"#": {
++			"item": "minecraft:moss_block"
++		}
+ 	},
+ 	"pattern": [
+ 		"##"

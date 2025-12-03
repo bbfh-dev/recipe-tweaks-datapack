@@ -1,0 +1,45 @@
+--- ./000_base/music_disc_5.json	2025-12-03 19:08:29.608722571 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/music_disc_5.json	2025-12-03 19:10:01.195837760 +0300
+@@ -2,15 +2,33 @@
+ 	"type": "minecraft:crafting_shapeless",
+ 	"category": "misc",
+ 	"ingredients": [
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5",
+-		"minecraft:disc_fragment_5"
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		},
++		{
++			"item": "minecraft:disc_fragment_5"
++		}
+ 	],
+ 	"result": {
+ 		"count": 1,

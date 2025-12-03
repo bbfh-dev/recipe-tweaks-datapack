@@ -1,0 +1,13 @@
+--- ./000_base/copper_ingot.json	2025-12-03 19:08:28.024755601 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/copper_ingot.json	2025-12-03 19:09:58.328896056 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "misc",
+ 	"group": "copper_ingot",
+ 	"ingredients": [
+-		"minecraft:copper_block"
++		{
++			"item": "minecraft:copper_block"
++		}
+ 	],
+ 	"result": {
+ 		"count": 9,

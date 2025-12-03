@@ -1,0 +1,13 @@
+--- ./000_base/dried_kelp_from_campfire_cooking.json	2025-12-03 19:08:28.457746571 +0300
++++ /tmp/tmp.sexGBVqjGR/data/minecraft/recipe/dried_kelp_from_campfire_cooking.json	2025-12-03 19:09:59.096880435 +0300
+@@ -3,7 +3,9 @@
+ 	"category": "food",
+ 	"cookingtime": 600,
+ 	"experience": 0.1,
+-	"ingredient": "minecraft:kelp",
++	"ingredient": {
++		"item": "minecraft:kelp"
++	},
+ 	"result": {
+ 		"id": "minecraft:dried_kelp"
+ 	}
