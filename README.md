@@ -1,6 +1,6 @@
 # Recipe Tweaks
 
-Minecraft QoL data pack to selectively improve recipes
+Minecraft QoL 1.21+ data pack to selectively improve recipes
 
 ## Download pre-built
 
