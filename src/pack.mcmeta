@@ -1,7 +1,7 @@
 {
 	"pack": {
 		"description": "",
-		"pack_format": 48,
+		"pack_format": 61,
 		"supported_formats": {
 			"min_inclusive": 48,
 			"max_inclusive": 88
@@ -9,6 +9,15 @@
 	},
 	"overlays": {
 		"entries": [
+			{
+				"directory": "overlay_v48",
+				"formats": {
+					"min_inclusive": 48,
+					"max_inclusive": 60
+				},
+				"min_format": 48,
+				"max_format": 60
+			},
 			{
 				"directory": "overlay_v61",
 				"formats": {
