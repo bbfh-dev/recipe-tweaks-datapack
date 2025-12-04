@@ -1,18 +1,18 @@
-#!/bin/bash -e
+#!/bin/sh
 
 ansi_green="\e[32m"
 ansi_blue="\e[34m"
 ansi_reset="\e[0m"
 
-function log {
+log() {
 	printf " %b->%b %s\n" $ansi_blue $ansi_reset "$*"
 }
 
-function log_call {
+log_call() {
 	printf " %b->%b %s... " $ansi_blue $ansi_reset "$*"
 }
 
-function section {
+section() {
 	printf "%b==>%b %s\n" $ansi_green $ansi_reset "$*"
 }
 
@@ -40,7 +40,7 @@ cp ./pack.mcmeta $BUILD_DIR/.
 section "Generating base version (from $(readlink ../vanilla/000_base))"
 mkdir -p $BUILD_DIR/data/minecraft/recipe
 
-function build {
+build() {
 	in_dir=$1
 	out_dir=$2
 
@@ -81,10 +81,10 @@ build ../vanilla/000_base $BUILD_DIR/data/minecraft/recipe
 already_patched=$(readlink ../vanilla/000_base)
 already_patched=${already_patched#./}
 for directory in ../vanilla/0*_*; do
-	if [[ $directory != *"$already_patched" && ! -L $directory ]]; then
+	if [ $directory != *"$already_patched" ] && [ ! -L $directory ]; then
 		basename=$(basename $directory)
 		section "Generating overlay (from $basename)"
-		prefix="${basename:0:3}"
+		prefix=$(echo "$basename" | cut -c1-3)
 		cleaned="${prefix##0}"
 
 		out_dir=../build/overlay_v$cleaned/data/minecraft/recipe
