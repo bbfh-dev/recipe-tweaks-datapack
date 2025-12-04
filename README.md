@@ -8,6 +8,9 @@ Navigate to [latest](https://github.com/bbfh-dev/recipe-tweaks-datapack/releases
 
 ## Building from source
 
+> [!IMPORTANT]
+> Requires `jq` and coreutils to be installed.
+
 With all patches from `./src/patches/`:
 
 ```bash

@@ -61,7 +61,8 @@ build() {
 
 			for file in $in_dir/${pattern}.json.patch; do
 				if [ -f $file ]; then
-					basename=$(basename -s ".patch" $file)
+					basename=$(basename $file)
+					basename="${basename%.patch}"
 					patch -s \
 						-o /tmp/patched-file.json \
 						$(realpath ../vanilla/000_base/$basename) \
