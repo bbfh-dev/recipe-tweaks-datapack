@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"description": "",
+		"description": "QoL pack to selectively improve recipes",
 		"pack_format": 61,
 		"supported_formats": {
 			"min_inclusive": 48,
