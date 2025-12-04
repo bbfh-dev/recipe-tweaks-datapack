@@ -4,7 +4,7 @@ Minecraft 1.21+ QoL data pack to selectively improve recipes
 
 ## Download pre-built
 
-Navigate to [latest](https://github.com/bbfh-dev/recipe-tweaks-datapack/releases/latest) and download the needed version.
+Navigate to [latest release](https://github.com/bbfh-dev/recipe-tweaks-datapack/releases/latest) and download the needed version.
 
 ## Building from source
 
