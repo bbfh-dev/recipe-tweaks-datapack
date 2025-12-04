@@ -34,6 +34,7 @@ mkdir $BUILD_DIR
 
 log "Copying pack.mcmeta -> $BUILD_DIR/."
 cp ./pack.mcmeta $BUILD_DIR/.
+cp ./pack.png $BUILD_DIR/.
 
 # ————————————————
 
