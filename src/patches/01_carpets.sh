@@ -2,7 +2,7 @@
 ansi_yellow="\e[33m"
 ansi_reset="\e[0m"
 
-if [[ $1 == "dye_"* ]]; then
+if [ $1 == "dye_"* ]; then
 	printf "%bSkipped.%b\n" $ansi_yellow $ansi_reset
 	exit
 fi

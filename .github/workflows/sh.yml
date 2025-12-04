@@ -17,4 +17,4 @@ jobs:
 
             - name: Build
               working-directory: src
-              run: sh build.sh
+              run: bash -e build.sh
