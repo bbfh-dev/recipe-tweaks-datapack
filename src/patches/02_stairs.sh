@@ -1,5 +1,5 @@
 # PATTERN: *_stairs
-out=${2/minecraft/recipe_tweaks}
+out=$(echo "$2" | sed 's/minecraft/recipe_tweaks/')
 mkdir -p $(dirname $out)
 
 tee >(jq -M --tab ".result.count |= 8" >"$2") \
