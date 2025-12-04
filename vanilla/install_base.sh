@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
 tmp_dir=$(mktemp -d)
 version=$1
 
-if [[ -z $version ]]; then
+if [ -z $version ]; then
 	echo "Usage: ./new.sh <version>"
 	exit 1
 fi
