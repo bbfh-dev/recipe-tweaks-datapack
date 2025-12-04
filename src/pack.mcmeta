@@ -1,0 +1,46 @@
+{
+	"pack": {
+		"description": "",
+		"pack_format": 48,
+		"supported_formats": {
+			"min_inclusive": 48,
+			"max_inclusive": 88
+		}
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "overlay_v61",
+				"formats": {
+					"min_inclusive": 61,
+					"max_inclusive": 70
+				},
+				"min_format": 61,
+				"max_format": 70
+			},
+			{
+				"directory": "overlay_v71",
+				"formats": {
+					"min_inclusive": 71,
+					"max_inclusive": 79
+				},
+				"min_format": 71,
+				"max_format": 79
+			},
+			{
+				"directory": "overlay_v80",
+				"formats": {
+					"min_inclusive": 80,
+					"max_inclusive": 88
+				},
+				"min_format": 80,
+				"max_format": 88
+			},
+			{
+				"directory": "overlay_v88",
+				"formats": 88,
+				"min_format": 88
+			}
+		]
+	}
+}
